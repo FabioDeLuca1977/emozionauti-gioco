@@ -460,6 +460,46 @@
     "game": "Bolle di calma"
   },
   {
+    "id": "ccfc5673",
+    "text": "Soffia piano piano: la bolla sale. Tienila sospesa nella striscia di luce.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "db37090a",
+    "text": "Sei secondi di soffio lento. Tieni la bolla sospesa nella striscia di luce, poi riprendi aria.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "ce7d926a",
+    "text": "Più piano: un soffio lento la tiene su meglio.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d51a48ed",
+    "text": "Riprendi aria dal naso, con calma.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "953bda8e",
+    "text": "Così! La bolla è sospesa.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "f69e79fe",
+    "text": "Non ti sento bene. Avvicinati al microfono, oppure tieni premuto per farla salire.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "8b4d10a9",
+    "text": "Che bel soffio lungo. La bolla ha danzato nell'aria.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "946c4056",
+    "text": "Fatto. Quando senti salire la tensione, sei secondi di soffio lento, prima di rispondere.",
+    "game": "Bolle di calma"
+  },
+  {
     "id": "4faf197d",
     "text": "Pinocchio e le emozioni.",
     "game": "Pinocchio e le emozioni"
@@ -3087,6 +3127,11 @@
   {
     "id": "2655e27c",
     "text": "Bolle di calma.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "b45c80d2",
+    "text": "La bolla sospesa.",
     "game": "Ciuffo, compagno di viaggio"
   },
   {
