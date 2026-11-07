@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guida per insegnanti · Emozionauti Gioca</title>
+<style>
+  :root {
+    --ink: #233650;
+    --ink-soft: #4d5d74;
+    --naso: #e23a48;
+    --carta: #fffdf9;
+    --tenue: #f6efe6;
+    --linea: #c9cfd8;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #f1ece4;
+    color: var(--ink);
+    font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .barra {
+    position: sticky; top: 0; z-index: 2;
+    display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    max-width: 210mm; margin: 0 auto; padding: 10px 16px;
+    background: #f1ece4;
+  }
+  .barra p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .stampa {
+    font: inherit; font-weight: 700; font-size: 16px;
+    color: #fff; background: var(--naso); border: 0; border-radius: 999px;
+    padding: 10px 22px; cursor: pointer;
+  }
+  .stampa:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  main { max-width: 210mm; margin: 0 auto; padding: 0 16px 40px; }
+  .foglio {
+    background: var(--carta);
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(35, 54, 80, .12);
+    padding: 28px clamp(16px, 5vw, 40px);
+    margin: 0 0 24px;
+  }
+  h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; }
+  h1 { font-size: clamp(26px, 6vw, 34px); }
+  h2 { font-size: 22px; border-bottom: 3px solid var(--naso); padding-bottom: 4px; display: inline-block; margin-top: .6em; }
+  h3 { font-size: 17px; margin-top: 1.2em; }
+  p, ul, ol { margin: 0 0 .8em; }
+  li { margin-bottom: .3em; }
+  .occhiello { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--naso); margin: 0 0 6px; }
+  .piede { font-size: 12px; color: var(--ink-soft); border-top: 1px solid var(--linea); padding-top: 8px; margin-top: 20px; }
+  .riquadro { border: 2px solid var(--ink); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .riquadro.rosso { border-color: var(--naso); }
+  .riquadro h3 { margin-top: 0; }
+  .nota { font-size: 14px; color: var(--ink-soft); }
+  .tre { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  @media (max-width: 640px) { .tre { grid-template-columns: 1fr; } }
+  .chip { display: inline-block; border: 1.5px solid var(--ink); border-radius: 999px; padding: 0 8px; font-size: 13px; font-weight: 700; margin: 0 2px 3px 0; white-space: nowrap; }
+  .aree { list-style: none; padding: 0; }
+  .aree li { margin-bottom: .5em; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 14.5px; }
+  th, td { border: 1px solid var(--linea); padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: var(--tenue); }
+  tr.fascia th { background: var(--ink); color: #fff; font-size: 15px; }
+  .tabella-scroll { overflow-x: auto; }
+  .tabella-scroll table { min-width: 560px; }
+  .tempi { display: grid; grid-template-columns: 76px 1fr; gap: 0; border: 2px solid var(--ink); border-radius: 10px; overflow: hidden; margin: 12px 0; }
+  .tempi > div { padding: 12px 14px; border-bottom: 1px solid var(--linea); }
+  .tempi > div:nth-last-child(-n+2) { border-bottom: 0; }
+  .tempi .min { font-size: 24px; font-weight: 700; color: var(--naso); text-align: center; background: var(--tenue); }
+  .tempi h3 { margin: 0 0 4px; }
+
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+  @media print {
+    body { background: #fff; font-size: 11pt; }
+    .barra { display: none; }
+    main { max-width: none; padding: 0; }
+    .foglio { box-shadow: none; border-radius: 0; padding: 0; margin: 0; background: #fff; }
+    .foglio + .foglio { break-before: page; page-break-before: always; }
+    .riquadro, .tempi, tr { break-inside: avoid; page-break-inside: avoid; }
+    h2, h3, tr.fascia { break-after: avoid; page-break-after: avoid; }
+    th { background: #f3f3f3; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    tr.fascia th { background: #fff; color: var(--ink); border-top: 2px solid var(--ink); }
+    .tempi .min { background: #fff; }
+    .tabella-scroll { overflow: visible; }
+    .tabella-scroll table { min-width: 0; font-size: 10pt; }
+  }
+</style>
+<script src="pagina.js" defer></script>
+</head>
+<body>
+
+<div class="barra">
+  <p>Emozionauti Gioca · materiale gratuito, si può fotocopiare</p>
+  <button class="stampa" type="button" onclick="window.print()">Stampa</button>
+</div>
+
+<main>
+
+<!-- ===================== COS'È ===================== -->
+<section class="foglio">
+  <p class="occhiello">Emozionauti Gioca · per insegnanti dell'infanzia, della primaria e delle secondarie</p>
+  <h1>Guida per insegnanti</h1>
+  <p><b>Emozionauti Gioca</b> è una raccolta di giochi brevi sulle emozioni, nata dall'esperienza di clownterapia degli Emozionauti. Ogni gioco dura pochi minuti e si chiude con un gesto o una parola da portare fuori dallo schermo.</p>
+
+  <div class="tre">
+    <div class="riquadro"><h3>Gratuito</h3><p style="margin:0">Nessun costo, nessuna pubblicità, nessun acquisto dentro i giochi.</p></div>
+    <div class="riquadro"><h3>Nessun account, nessun dato</h3><p style="margin:0">Non ci si registra e non si salva niente su chi gioca. Il microfono, se lo usate, ascolta solo il volume del soffio e non registra.</p></div>
+    <div class="riquadro"><h3>LIM o tablet</h3><p style="margin:0">Si apre nel browser: si proietta sulla LIM per tutta la classe o si usa sul tablet a turni e in piccoli gruppi.</p></div>
+  </div>
+
+  <h2>Che cosa allena</h2>
+  <p>Proponetelo come <b>alfabetizzazione emotiva</b>: imparare a riconoscere, nominare e gestire le emozioni, e allenare le competenze socio-emotive che servono a stare bene con sé e con gli altri. Per descrivere queste competenze usiamo cinque aree di riferimento molto diffuse nella letteratura internazionale (per esempio nel modello CASEL):</p>
+  <ul class="aree">
+    <li><span class="chip">Consapevolezza</span> riconoscere e nominare le emozioni, proprie e altrui, e capire da dove vengono.</li>
+    <li><span class="chip">Autoregolazione</span> calmarsi, fermarsi, scegliere una reazione invece di subirla.</li>
+    <li><span class="chip">Empatia</span> mettersi nei panni degli altri, accorgersi di come si sentono, cambiare punto di vista.</li>
+    <li><span class="chip">Relazione</span> collaborare, ascoltare, accogliere l'idea dell'altro, giocare in squadra.</li>
+    <li><span class="chip">Fiducia</span> conoscere le proprie forze, provarci, tollerare l'errore, rialzarsi (resilienza).</li>
+  </ul>
+
+  <div class="riquadro">
+    <h3>Scuole della sperimentazione sulle competenze non cognitive</h3>
+    <p style="margin:0">Con la legge 22/2025 alcune scuole stanno sperimentando percorsi sulle competenze non cognitive e trasversali. Emozionauti Gioca <b>non è un programma approvato né indicato dal Ministero</b>, e non fa parte ufficialmente della sperimentazione. È uno strumento libero e gratuito che potete valutare voi, all'interno della vostra progettazione, se lo trovate coerente con gli obiettivi del vostro istituto. Le cinque aree sopra sono aree di riferimento comuni, non l'elenco ufficiale della legge: confrontatele con i documenti della vostra scuola.</p>
+  </div>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Guida per insegnanti</p>
+</section>
+
+<!-- ===================== TABELLA GIOCHI ===================== -->
+<section class="foglio">
+  <h2>I giochi per la scuola</h2>
+  <p class="nota">Le durate sono indicative: dipendono dall'età, dal livello di aiuto scelto e da quanto vi fermate a parlare. Ogni gioco si apre con una scheda "Per gli adulti" che ne spiega il senso.</p>
+  <div class="tabella-scroll">
+  <table>
+    <tr><th style="width:22%">Gioco</th><th style="width:24%">Aree allenate</th><th style="width:11%">Durata</th><th>Come usarlo in classe</th></tr>
+
+    <tr class="fascia"><th colspan="4">Scuola dell'infanzia (3–6 anni)</th></tr>
+    <tr><td><b>Il meteo del cuore</b></td><td>Consapevolezza, Empatia</td><td>5–10'</td><td>Proiettato: si sceglie insieme il "tempo" del cuore, un bambino prova a indovinare perché. Poi a turni.</td></tr>
+    <tr><td><b>Il camerino del clown</b></td><td>Consapevolezza, Fiducia</td><td>5–10'</td><td>Proiettato: un bambino alla volta veste il clown, tutta la sezione prova la faccia dell'emozione con il corpo.</td></tr>
+    <tr><td><b>Bolle di calma</b></td><td>Autoregolazione</td><td>3–5'</td><td>Tutti respirano insieme davanti alla LIM; un bambino tiene il dito sullo schermo (in classe il microfono sente troppo rumore).</td></tr>
+    <tr><td><b>Lo zoo delle statue</b></td><td>Autoregolazione, Relazione</td><td>5'</td><td>Tutta la sezione in piedi: si balla come gli animali e ci si ferma insieme. Ottimo per il rientro dalla ricreazione.</td></tr>
+    <tr><td><b>Scova le coppie</b></td><td>Consapevolezza</td><td>5–10'</td><td>A turni o in piccoli gruppi: chi trova la coppia guida tutti a fare quella faccia.</td></tr>
+    <tr><td><b>Il cestino delle coccole</b></td><td>Empatia, Consapevolezza</td><td>5'</td><td>A turni sul tablet o alla LIM; alla fine ogni bambino regala una coccola vera a un compagno.</td></tr>
+
+    <tr class="fascia"><th colspan="4">Scuola primaria (6–10 anni)</th></tr>
+    <tr><td><b>Missione Emozionauti</b></td><td>Empatia, Relazione</td><td>10–15'</td><td>In coppia (pilota e copilota) sul tablet, oppure due squadre alla LIM: si vince solo parlandosi.</td></tr>
+    <tr><td><b>Pinocchio e le emozioni</b></td><td>Consapevolezza, Empatia</td><td>10–15'</td><td>Lettura proiettata con tutta la classe: ci si ferma sulle emozioni dei personaggi.</td></tr>
+    <tr><td><b>Tangram delle emozioni</b></td><td>Consapevolezza</td><td>10'</td><td>Piccoli gruppi a turni; quando la sagoma è pronta, tutti fanno l'emozione con il corpo.</td></tr>
+    <tr><td><b>Scova le coppie (messaggi)</b></td><td>Consapevolezza, Relazione</td><td>10'</td><td>In coppia: dopo ogni abbinamento ci si chiede "a te è mai successo?".</td></tr>
+    <tr><td><b>La stella della squadra</b></td><td>Relazione, Fiducia</td><td>2–3' al giorno</td><td>Alla LIM per settimane: ogni gesto bello della classe accende una stella. Solo rinforzi positivi, nessun nome.</td></tr>
+    <tr><td><b>Raccogli la mossa giusta</b></td><td>Autoregolazione</td><td>5–10'</td><td>A turni alla LIM; alla fine la classe fa davvero la "mossa vera".</td></tr>
+
+    <tr class="fascia"><th colspan="4">Secondaria di primo grado (11–13 anni)</th></tr>
+    <tr><td><b>Tre punti di vista</b></td><td>Empatia</td><td>10–15'</td><td>Proiettato: la classe divisa in tre gruppi scommette di nascosto su cosa prova ogni personaggio, poi si confronta.</td></tr>
+    <tr><td><b>Sì, e...</b></td><td>Relazione, Fiducia</td><td>15'</td><td>Tutta la classe in cerchio: una storia a turno, il pubblico applaude per votare.</td></tr>
+    <tr><td><b>Pausa per il cervello</b></td><td>Autoregolazione</td><td>4'</td><td>Tutti in piedi tra due lezioni o prima di un compito.</td></tr>
+    <tr><td><b>Pensieri al volo</b></td><td>Autoregolazione, Fiducia</td><td>5–10'</td><td>A turni alla LIM; poi si discute: quali pensieri ci aiutano e quali sono trappole?</td></tr>
+
+    <tr class="fascia"><th colspan="4">Secondaria di secondo grado (14–18 anni)</th></tr>
+    <tr><td><b>La mappa delle mie forze</b></td><td>Fiducia, Relazione</td><td>15'</td><td>In coppia su un dispositivo: ognuno sceglie le sue forze, poi il compagno dice quelle che vede.</td></tr>
+    <tr><td><b>Palco aperto</b></td><td>Relazione, Fiducia</td><td>15–20' a settimana</td><td>Una sfida di improvvisazione a settimana, proiettata: c'è chi conduce, chi è in scena e l'applausometro.</td></tr>
+    <tr><td><b>Pausa per il cervello</b></td><td>Autoregolazione</td><td>4'</td><td>Prima di una verifica, tutti in piedi.</td></tr>
+    <tr><td><b>Scudo anti-stress</b></td><td>Autoregolazione, Fiducia</td><td>5'</td><td>Individuale sul proprio dispositivo o proiettato prima di una verifica; si chiude con il respiro quadrato fatto insieme.</td></tr>
+    <tr><td><b>I colori di dentro</b></td><td>Consapevolezza, Autoregolazione</td><td>5–10'</td><td>Individuale o proiettato; alla fine si chiede solo quale gesto è piaciuto di più e perché.</td></tr>
+
+    <tr class="fascia"><th colspan="4">Area adulti: strumenti per guidare un gruppo</th></tr>
+    <tr><td><b>Stella, Sì e..., Pausa</b></td><td>Relazione, Autoregolazione</td><td>4–15'</td><td>Le versioni per chi conduce: utili anche in un collegio docenti o in una formazione, per provare i giochi prima di proporli.</td></tr>
+  </table>
+  </div>
+  <p class="nota">Sulla piattaforma trovate anche giochi pensati per giocare in coppia con un adulto (a casa o in uno a uno) e i giochi di corsia per l'ospedale.</p>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Guida per insegnanti</p>
+</section>
+
+<!-- ===================== LEZIONE TIPO ===================== -->
+<section class="foglio">
+  <h2>Lezione tipo da 15 minuti</h2>
+  <div class="tempi">
+    <div class="min">2'</div>
+    <div><h3>Aggancio</h3><p style="margin:0">Una domanda, un oggetto o una faccia: "Com'è il tempo nel vostro cuore stamattina?", "Vi è mai capitato di avere tanta rabbia da voler scoppiare?". Presentate il gioco in una frase e scegliete il livello di aiuto.</p></div>
+    <div class="min">8'</div>
+    <div><h3>Gioco</h3><p style="margin:0">Proiettato o a turni. Leggete ad alta voce se serve, date la parola a chi non la prende mai, lodate l'impegno e non la velocità. Se il tempo finisce, potete fermarvi con il pulsante Pausa.</p></div>
+    <div class="min">5'</div>
+    <div><h3>Conversazione</h3><p style="margin:0">Usate le domande della <b>scheda "Parliamone"</b> che compare a fine gioco. Ascoltate senza correggere: non ci sono emozioni sbagliate. Chiudete con il potere dello zaino da usare durante la giornata.</p></div>
+  </div>
+  <p class="nota">La conversazione non è un'aggiunta: è la parte che conta di più. Se avete solo 10 minuti, accorciate il gioco, non la conversazione.</p>
+
+  <h2>Gli strumenti che trovate nei giochi</h2>
+  <ul>
+    <li><b>Scheda "Parliamone"</b>: a fine gioco, poche domande aperte per l'adulto e le parole delle emozioni da usare. Potete proiettarla e leggerla con la classe.</li>
+    <li><b>Lo zaino dei poteri</b>: ogni gioco finito lascia un potere da usare fuori dallo schermo ("fai tre soffi lenti", "regala una coccola vera"). Richiamatelo nei giorni seguenti, quando serve davvero.</li>
+    <li><b>Tre livelli di aiuto</b>: <b>Con calma</b> toglie fretta e punteggio, <b>Normale</b>, <b>Sfida</b> aggiunge un po' di pepe. Nessuna scelta è "barare": scegliete in base al gruppo e al momento.</li>
+    <li><b>Voce e sottotitoli</b>: una voce narrante guida il gioco e i sottotitoli mostrano cosa dice. Aiutano chi non sente bene, chi impara a leggere e chi impara l'italiano.</li>
+    <li><b>Movimento ridotto</b>: per chi è sensibile alle animazioni. <b>Pausa</b>: sempre a portata di mano.</li>
+  </ul>
+
+  <h2>Con regolarità, senza promesse</h2>
+  <p>La ricerca sui programmi socio-emotivi dice che contano soprattutto <b>la durata</b> (proporli con regolarità, non una volta sola) e <b>la conversazione con l'adulto</b>. Per questo vi suggeriamo di usare i giochi <b>una volta a settimana per alcune settimane</b> (per esempio 6–8), magari sempre lo stesso giorno, e di tornare ogni tanto su un gioco già fatto.</p>
+  <p>Non vi promettiamo risultati: Emozionauti Gioca non è stato ancora valutato con uno studio di efficacia. È uno strumento per aprire conversazioni sulle emozioni in modo leggero, e il vostro sguardo è la parte più preziosa.</p>
+
+  <div class="riquadro rosso">
+    <h3>Valutatelo con il kit su carta</h3>
+    <p style="margin:0">Nell'area adulti trovate il <b>Kit di valutazione su carta</b>: faccine per i bambini ("Quanto ti è piaciuto?", "Ancora, ancora!"), una scheda breve per voi dopo ogni sessione e un diario di osservazione. Tutto senza nomi, con un codice per bambino, e il foglio dei codici resta a scuola. Ci aiuta a capire cosa funziona e cosa migliorare.</p>
+  </div>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Guida per insegnanti</p>
+</section>
+
+</main>
+</body>
+</html>

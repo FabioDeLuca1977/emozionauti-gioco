@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kit di valutazione su carta · Emozionauti Gioca</title>
+<style>
+  :root {
+    --ink: #233650;
+    --ink-soft: #4d5d74;
+    --naso: #e23a48;
+    --carta: #fffdf9;
+    --tenue: #f6efe6;
+    --linea: #c9cfd8;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #f1ece4;
+    color: var(--ink);
+    font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .barra {
+    position: sticky; top: 0; z-index: 2;
+    display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    max-width: 210mm; margin: 0 auto; padding: 10px 16px;
+    background: #f1ece4;
+  }
+  .barra p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .stampa {
+    font: inherit; font-weight: 700; font-size: 16px;
+    color: #fff; background: var(--naso); border: 0; border-radius: 999px;
+    padding: 10px 22px; cursor: pointer;
+  }
+  .stampa:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  main { max-width: 210mm; margin: 0 auto; padding: 0 16px 40px; }
+  .foglio {
+    background: var(--carta);
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(35, 54, 80, .12);
+    padding: 28px clamp(16px, 5vw, 40px);
+    margin: 0 0 24px;
+  }
+  h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; }
+  h1 { font-size: clamp(26px, 6vw, 34px); }
+  h2 { font-size: 22px; border-bottom: 3px solid var(--naso); padding-bottom: 4px; display: inline-block; }
+  h3 { font-size: 17px; margin-top: 1.2em; }
+  p, ul, ol { margin: 0 0 .8em; }
+  li { margin-bottom: .3em; }
+  .occhiello { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--naso); margin: 0 0 6px; }
+  .piede { font-size: 12px; color: var(--ink-soft); border-top: 1px solid var(--linea); padding-top: 8px; margin-top: 20px; }
+  .riquadro { border: 2px solid var(--ink); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .riquadro.rosso { border-color: var(--naso); }
+  .riquadro h3 { margin-top: 0; }
+  .nota { font-size: 14px; color: var(--ink-soft); }
+  .due { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 560px) { .due { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; }
+  th, td { border: 1px solid var(--linea); padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: var(--tenue); font-size: 14px; }
+  .tabella-scroll { overflow-x: auto; }
+  .campo { display: flex; gap: 8px; align-items: flex-end; margin: 10px 0; flex-wrap: wrap; }
+  .campo b { white-space: nowrap; }
+  .riga { flex: 1; min-width: 120px; border-bottom: 1.5px solid var(--ink); height: 1.4em; }
+  .righe .riga { display: block; height: 2em; margin: 0; }
+  .codice { display: inline-flex; gap: 4px; }
+  .codice span { width: 30px; height: 36px; border: 1.5px solid var(--ink); border-radius: 4px; display: inline-block; }
+
+  /* Faccine */
+  .faccine { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; text-align: center; margin: 10px 0 4px; }
+  .faccine svg { width: 100%; max-width: 92px; height: auto; color: var(--ink); }
+  .faccine small { display: block; font-size: 13px; font-weight: 700; line-height: 1.2; }
+  .faccine.grandi svg { max-width: 140px; }
+  .faccine.grandi small { font-size: 16px; }
+  .blocco-gioco { border: 2px dashed var(--linea); border-radius: 12px; padding: 12px 14px; margin: 12px 0; }
+
+  /* Scale 1-5 */
+  .scala td.n { width: 38px; text-align: center; font-weight: 700; }
+  .cerchi { text-align: center; white-space: nowrap; }
+  .cerchi i { font-style: normal; display: inline-block; width: 26px; height: 26px; line-height: 23px; border: 1.5px solid var(--ink); border-radius: 50%; margin: 0 2px; font-size: 13px; }
+
+  .righe-tab td { height: 44px; }
+  .righe-tab.alte td { height: 70px; }
+  .codici td { height: 28px; padding: 3px 8px; }
+  .crocette td { text-align: center; }
+  .crocette td:first-child { text-align: left; }
+
+  @page { size: A4; margin: 14mm 14mm 16mm; }
+  @media print {
+    body { background: #fff; font-size: 11.5pt; }
+    .barra { display: none; }
+    main { max-width: none; padding: 0; }
+    .foglio { box-shadow: none; border-radius: 0; padding: 0; margin: 0; background: #fff; }
+    .foglio + .foglio { break-before: page; page-break-before: always; }
+    .riquadro, .blocco-gioco, table, tr { break-inside: avoid; page-break-inside: avoid; }
+    h2, h3 { break-after: avoid; page-break-after: avoid; }
+    th { background: #f3f3f3; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .tabella-scroll { overflow: visible; }
+    .faccine.grandi svg { max-width: 120px; }
+  }
+</style>
+<script src="pagina.js" defer></script>
+</head>
+<body>
+
+<!-- Disegni delle cinque faccine, usati in tutte le schede -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="f1" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
+      <path d="M26 30 L42 36 M74 30 L58 36" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="36" cy="44" r="5" fill="currentColor"/><circle cx="64" cy="44" r="5" fill="currentColor"/>
+      <path d="M30 78 Q50 56 70 78" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="f2" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
+      <circle cx="36" cy="42" r="5" fill="currentColor"/><circle cx="64" cy="42" r="5" fill="currentColor"/>
+      <path d="M32 72 Q50 62 68 72" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="f3" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
+      <circle cx="36" cy="42" r="5" fill="currentColor"/><circle cx="64" cy="42" r="5" fill="currentColor"/>
+      <path d="M32 68 L68 68" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="f4" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
+      <circle cx="36" cy="42" r="5" fill="currentColor"/><circle cx="64" cy="42" r="5" fill="currentColor"/>
+      <path d="M31 62 Q50 78 69 62" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="f5" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="4"/>
+      <path d="M28 40 Q36 32 44 40 M56 40 Q64 32 72 40" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+      <path d="M27 58 Q50 92 73 58 Z" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linejoin="round"/>
+      <path d="M33 62 Q50 70 67 62" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="barra">
+  <p>Emozionauti Gioca · materiale gratuito, si può fotocopiare</p>
+  <button class="stampa" type="button" onclick="window.print()">Stampa</button>
+</div>
+
+<main>
+
+<!-- ===================== GUIDA AL KIT ===================== -->
+<section class="foglio">
+  <p class="occhiello">Emozionauti Gioca · per insegnanti, clown, educatori e personale di reparto</p>
+  <h1>Kit di valutazione su carta</h1>
+  <p>Questo kit serve a capire, con calma e senza strumenti digitali, <b>se i giochi piacciono, se sono facili da usare e se fanno nascere conversazioni</b>. Lo potete usare in una classe, in una ludoteca o in un reparto, per qualche settimana.</p>
+
+  <div class="due">
+    <div class="riquadro">
+      <h3>Che cos'è</h3>
+      <ul>
+        <li>Uno <b>studio di gradimento</b>: ai bambini e ai ragazzi piace? Lo rifarebbero?</li>
+        <li>Uno <b>studio di fattibilità</b>: per l'adulto è facile da avviare? Funziona con quell'età, in quel tempo, in quel luogo?</li>
+        <li>Un'<b>osservazione d'uso</b>: dove si bloccano, dove chiedono "ancora".</li>
+      </ul>
+    </div>
+    <div class="riquadro rosso">
+      <h3>Che cosa non è</h3>
+      <ul>
+        <li><b>Non è una prova di efficacia.</b> Non dice se i giochi migliorano le competenze emotive: per questo servono un gruppo di confronto e misure validate.</li>
+        <li>Non è un test sui bambini e non dà voti a nessuno.</li>
+        <li>Non è una valutazione dell'insegnante o del clown.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Perché tutto è su carta</h3>
+  <p>Emozionauti Gioca <b>non raccoglie dati</b>: non ci sono account, non si salvano risultati, non si sa chi ha giocato. È una scelta di rispetto verso i bambini. Per questo anche la valutazione nasce su carta e resta a voi: siete voi a decidere se e con chi condividere i risultati, già riassunti e senza nomi.</p>
+
+  <h3>Cosa c'è nel kit</h3>
+  <table>
+    <tr><th>Scheda</th><th>Chi la compila</th><th>Quando</th></tr>
+    <tr><td>A. Quanto ti è piaciuto? (5 faccine, 3 giochi)</td><td>Il bambino o il ragazzo, da solo</td><td>Subito dopo ogni gioco</td></tr>
+    <tr><td>B. Ancora, ancora!</td><td>Il bambino o il ragazzo</td><td>Alla fine della sessione</td></tr>
+    <tr><td>C. Versione da indicare col dito</td><td>L'adulto, per i più piccoli (3–6 anni) o per chi non scrive</td><td>Dopo ogni gioco</td></tr>
+    <tr><td>D. Scheda dell'adulto</td><td>Insegnante, clown, educatore</td><td>Dopo ogni sessione</td></tr>
+    <tr><td>E. Diario di osservazione</td><td>Un adulto che osserva 5–8 bambini</td><td>Durante il gioco</td></tr>
+    <tr><td>F. Foglio dei codici</td><td>Il referente della scuola o del reparto</td><td>All'inizio; si custodisce a parte</td></tr>
+  </table>
+
+  <h3>Come si usa, passo per passo</h3>
+  <ol>
+    <li>Scegliete <b>tre giochi</b> adatti all'età (li trovate nell'area adulti della piattaforma).</li>
+    <li>Assegnate a ogni bambino un <b>codice</b> e scrivetelo solo sul foglio F, che resta custodito.</li>
+    <li>Fate giocare. Subito dopo ogni gioco il bambino cerchia una faccina sulla scheda A (o la indica col dito, scheda C).</li>
+    <li>A fine sessione: scheda B ("quale rifaresti?") per i bambini e scheda D per l'adulto.</li>
+    <li>Se c'è un secondo adulto, compila il diario E mentre si gioca.</li>
+    <li>Ripetete per alcune sessioni (per esempio una a settimana per 4–6 settimane): un'impressione sola dice poco.</li>
+  </ol>
+
+  <div class="riquadro">
+    <h3>Una nota onesta sulle faccine</h3>
+    <p>Le schede A, B e C si ispirano al <b>Fun Toolkit</b> di Janet Read (Smileyometer e tabella "Ancora-Ancora"; Read, 2008). È uno strumento usato in molti studi con i bambini, ma <b>non risulta validato in italiano</b>. Inoltre i bambini tendono a dare punteggi molto alti a tutto, e quando valutano più attività di fila <b>l'ordine conta</b>: l'ultimo gioco spesso "vince".</p>
+    <p class="nota">Per ridurre l'effetto d'ordine: cambiate l'ordine dei giochi da un gruppo all'altro (per esempio gruppo 1: A-B-C, gruppo 2: B-C-A, gruppo 3: C-A-B) e segnatelo sulle schede. Guardate soprattutto le differenze tra i giochi e la scheda "Ancora, ancora!", più che il punteggio assoluto.</p>
+  </div>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Kit di valutazione, guida</p>
+</section>
+
+<!-- ===================== PRIVACY E STUDIO VERO ===================== -->
+<section class="foglio">
+  <h2>Regole di privacy</h2>
+  <ul>
+    <li><b>Nessun nome sui fogli.</b> Su ogni scheda si scrive solo un codice, per esempio <b>3B-07</b> (classe + numero) oppure <b>PED-04</b> (reparto + numero). Niente iniziali, date di nascita o fotografie.</li>
+    <li><b>Il foglio dei codici (F) resta alla scuola o al reparto</b>, chiuso in un cassetto, separato dalle schede. Non si fotografa, non si manda per email, non esce dall'istituto.</li>
+    <li>Le schede compilate si conservano per il tempo necessario e poi si distruggono. Chi le riassume trascrive solo codici e punteggi.</li>
+    <li><b>Informativa e consenso dei genitori</b> (o di chi esercita la responsabilità genitoriale) servono prima di cominciare, e ogni bambino o ragazzo può sempre dire di no o smettere, senza conseguenze. Chi non partecipa alla valutazione può comunque giocare.</li>
+    <li>In ospedale, prima di tutto serve l'accordo del personale del reparto e, se c'è, del servizio di psicologia.</li>
+    <li>Le schede non sono strumenti clinici e non servono a valutare il singolo bambino. Se un'osservazione vi preoccupa, seguite le procedure abituali della scuola o del reparto.</li>
+  </ul>
+
+  <div class="riquadro rosso">
+    <h3>Se volete farne uno studio vero</h3>
+    <p>Questo kit è pensato per un primo passo informale. Per uno studio da pubblicare o da presentare servono altre cose, e <b>il kit è pronto per essere adottato da chi le ha</b>:</p>
+    <ul>
+      <li><b>Un ente titolare</b> dello studio e dei dati: un'università (per esempio un corso di laurea magistrale in psicologia dello sviluppo, anche come tesi) o un ospedale. Non un gruppo di volontari.</li>
+      <li><b>Il parere di un comitato etico</b>, con informativa e consenso preparati dall'ente.</li>
+      <li><b>La preregistrazione</b> delle ipotesi e del metodo, gratuita su OSF (osf.io), prima di raccogliere i dati. Un risultato nullo si pubblica comunque.</li>
+      <li><b>Un gruppo di confronto</b> (per esempio classi in lista d'attesa) e <b>misure validate in italiano</b>, come:
+        <ul>
+          <li><b>TEC</b>, Test of Emotion Comprehension, per la comprensione delle emozioni (standardizzazione italiana di Albanese e Molina, 2008);</li>
+          <li><b>ERC</b>, Emotion Regulation Checklist, versione italiana compilata dall'insegnante (Molina et al., 2014);</li>
+          <li><b>SDQ</b>, Strengths and Difficulties Questionnaire, per i punti di forza e le difficoltà.</li>
+        </ul>
+      </li>
+    </ul>
+    <p class="nota">Questi sono strumenti per professionisti: vanno somministrati e interpretati da psicologi formati, secondo i rispettivi manuali e licenze. Non vanno usati da soli a scuola o in reparto.</p>
+  </div>
+
+  <h3>Come riassumere i risultati</h3>
+  <ul>
+    <li>Per ogni gioco: quante faccine di ciascun tipo, e quante volte è stato scelto come primo nella scheda "Ancora, ancora!".</li>
+    <li>Dalle schede degli adulti: la media di ogni voce da 1 a 5 e le frasi che si ripetono.</li>
+    <li>Dal diario: i punti in cui più bambini si sono bloccati. Sono le informazioni più utili per migliorare i giochi.</li>
+  </ul>
+  <p>Se volete, potete mandare il riassunto senza codici e senza nomi agli Emozionauti: ci aiuta a sistemare i giochi.</p>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Kit di valutazione, privacy</p>
+</section>
+
+<!-- ===================== SCHEDA A ===================== -->
+<section class="foglio">
+  <p class="occhiello">Scheda A · per il bambino o il ragazzo</p>
+  <h2>Quanto ti è piaciuto?</h2>
+  <div class="campo"><b>Il mio codice:</b> <span class="codice"><span></span><span></span><span></span><span></span><span></span></span> <b>Data:</b> <span class="riga" style="max-width:160px"></span></div>
+  <p>Dopo ogni gioco, <b>fai un cerchio intorno a una faccina</b>. Non c'è una risposta giusta: conta quello che pensi tu.</p>
+
+  <div class="blocco-gioco">
+    <div class="campo"><b>Gioco 1:</b> <span class="riga"></span></div>
+    <div class="faccine">
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bruttissimo"><use href="#f1"/></svg><small>Bruttissimo</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Non tanto"><use href="#f2"/></svg><small>Non tanto</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Così così"><use href="#f3"/></svg><small>Così così</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bello"><use href="#f4"/></svg><small>Bello</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bellissimo"><use href="#f5"/></svg><small>Bellissimo</small></div>
+    </div>
+  </div>
+
+  <div class="blocco-gioco">
+    <div class="campo"><b>Gioco 2:</b> <span class="riga"></span></div>
+    <div class="faccine">
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bruttissimo"><use href="#f1"/></svg><small>Bruttissimo</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Non tanto"><use href="#f2"/></svg><small>Non tanto</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Così così"><use href="#f3"/></svg><small>Così così</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bello"><use href="#f4"/></svg><small>Bello</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bellissimo"><use href="#f5"/></svg><small>Bellissimo</small></div>
+    </div>
+  </div>
+
+  <div class="blocco-gioco">
+    <div class="campo"><b>Gioco 3:</b> <span class="riga"></span></div>
+    <div class="faccine">
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bruttissimo"><use href="#f1"/></svg><small>Bruttissimo</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Non tanto"><use href="#f2"/></svg><small>Non tanto</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Così così"><use href="#f3"/></svg><small>Così così</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bello"><use href="#f4"/></svg><small>Bello</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bellissimo"><use href="#f5"/></svg><small>Bellissimo</small></div>
+    </div>
+  </div>
+
+  <p class="nota">Per l'adulto: scrivete voi i nomi dei giochi prima di fotocopiare, nell'ordine in cui si giocano. Ordine di questo gruppo: <span class="riga" style="display:inline-block;width:120px"></span> (es. A-B-C)</p>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda A</p>
+</section>
+
+<!-- ===================== SCHEDA B ===================== -->
+<section class="foglio">
+  <p class="occhiello">Scheda B · per il bambino o il ragazzo</p>
+  <h2>Ancora, ancora!</h2>
+  <div class="campo"><b>Il mio codice:</b> <span class="codice"><span></span><span></span><span></span><span></span><span></span></span> <b>Data:</b> <span class="riga" style="max-width:160px"></span></div>
+
+  <h3>1. Lo rifaresti? Fai una croce.</h3>
+  <table class="crocette righe-tab">
+    <tr><th>Gioco</th><th style="width:18%">Sì!</th><th style="width:18%">Forse</th><th style="width:18%">No</th></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <h3>2. Metti in fila i giochi: quale rifaresti per primo?</h3>
+  <p>Scrivi <b>1</b> vicino al gioco che rifaresti subito, <b>2</b> al secondo, <b>3</b> al terzo.</p>
+  <table class="righe-tab">
+    <tr><th>Gioco</th><th style="width:22%">Il mio numero</th></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+    <tr><td></td><td></td></tr>
+  </table>
+
+  <h3>3. Se vuoi, scrivi o disegna</h3>
+  <div class="due">
+    <div class="riquadro" style="min-height:150px"><b>La cosa più bella è stata…</b></div>
+    <div class="riquadro" style="min-height:150px"><b>Cambierei…</b></div>
+  </div>
+
+  <p class="nota">Per l'adulto: scrivete i nomi dei giochi nelle tabelle prima di fotocopiare. Per i ragazzi delle medie e delle superiori potete leggere la scheda ad alta voce e lasciarla compilare in autonomia.</p>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda B</p>
+</section>
+
+<!-- ===================== SCHEDA C ===================== -->
+<section class="foglio">
+  <p class="occhiello">Scheda C · per i più piccoli, con l'adulto</p>
+  <h2>Indica col dito</h2>
+  <p>Mostrate questa striscia al bambino e chiedete: <b>"Quanto ti è piaciuto il gioco? Fammi vedere con il dito."</b> Leggete ad alta voce tutte le faccine, da sinistra a destra, con lo stesso tono. Segnate voi nella tabella sotto. Se il bambino non vuole rispondere, va benissimo: scrivete "non risponde".</p>
+
+  <div class="blocco-gioco">
+    <div class="faccine grandi">
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bruttissimo"><use href="#f1"/></svg><small>Bruttissimo</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Non tanto"><use href="#f2"/></svg><small>Non tanto</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Così così"><use href="#f3"/></svg><small>Così così</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bello"><use href="#f4"/></svg><small>Bello</small></div>
+      <div><svg viewBox="0 0 100 100" role="img" aria-label="Bellissimo"><use href="#f5"/></svg><small>Bellissimo</small></div>
+    </div>
+  </div>
+  <p class="nota">Consiglio: ritagliate la striscia e plastificatela, così si può pulire e riusare (anche in reparto).</p>
+
+  <div class="campo"><b>Data:</b> <span class="riga" style="max-width:140px"></span> <b>Luogo:</b> <span class="riga"></span></div>
+  <div class="tabella-scroll">
+  <table class="righe-tab">
+    <tr><th style="width:16%">Codice</th><th>Gioco</th><th style="width:20%">Faccina indicata (1–5)</th><th style="width:22%">Lo rifaresti? Sì / Forse / No</th><th style="width:20%">Note</th></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  </div>
+  <p class="nota">1 = Bruttissimo · 2 = Non tanto · 3 = Così così · 4 = Bello · 5 = Bellissimo. Con i bambini di 3–4 anni le faccine sono ancora difficili: annotate anche cosa fa (sorride, chiede di rifarlo, si allontana).</p>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda C</p>
+</section>
+
+<!-- ===================== SCHEDA D ===================== -->
+<section class="foglio">
+  <p class="occhiello">Scheda D · per l'adulto (insegnante, clown, educatore)</p>
+  <h2>Dopo la sessione</h2>
+  <div class="campo"><b>Data:</b> <span class="riga" style="max-width:140px"></span> <b>Gioco:</b> <span class="riga"></span></div>
+  <div class="campo"><b>Contesto:</b> classe · sezione infanzia · ludoteca · reparto · altro: <span class="riga"></span></div>
+  <div class="campo"><b>Età o classe:</b> <span class="riga" style="max-width:150px"></span> <b>N. bambini:</b> <span class="riga" style="max-width:80px"></span> <b>Durata (minuti):</b> <span class="riga" style="max-width:80px"></span></div>
+  <div class="campo"><b>Come:</b> proiettato sulla LIM · tablet a turni · piccoli gruppi · uno a uno · altro: <span class="riga"></span></div>
+
+  <h3>Cerchiate un numero (1 = per niente, 5 = moltissimo)</h3>
+  <table class="scala">
+    <tr><th>Voce</th><th style="width:44%">Valutazione</th></tr>
+    <tr><td><b>Facilità d'avvio</b><br><span class="nota">È stato semplice far partire il gioco e spiegarlo?</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+    <tr><td><b>Coinvolgimento</b><br><span class="nota">I bambini erano presi dal gioco?</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+    <tr><td><b>Conversazione nata dopo</b><br><span class="nota">Si è parlato di emozioni, anche solo un po'?</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+    <tr><td><b>Adeguatezza all'età</b><br><span class="nota">Né troppo facile né troppo difficile?</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+    <tr><td><b>Durata giusta</b><br><span class="nota">Il tempo era adatto al momento?</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+    <tr><td><b>Problemi tecnici</b><br><span class="nota">1 = nessuno, 5 = moltissimi (audio, microfono, rete, schermo)</span></td><td class="cerchi"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i></td></tr>
+  </table>
+
+  <h3>Osservazioni</h3>
+  <p><b>Dove si sono bloccati o hanno avuto bisogno d'aiuto?</b></p>
+  <div class="righe"><span class="riga"></span><span class="riga"></span></div>
+  <p style="margin-top:10px"><b>Dove hanno chiesto "ancora" o si sono divertiti di più?</b></p>
+  <div class="righe"><span class="riga"></span><span class="riga"></span></div>
+  <p style="margin-top:10px"><b>Una frase o un momento che vi è rimasto (senza nomi)</b></p>
+  <div class="righe"><span class="riga"></span><span class="riga"></span></div>
+  <p style="margin-top:10px"><b>Cosa cambiereste?</b></p>
+  <div class="righe"><span class="riga"></span><span class="riga"></span><span class="riga"></span></div>
+
+  <div class="campo"><b>Lo riproporreste?</b> Sì · Forse · No</div>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda D</p>
+</section>
+
+<!-- ===================== SCHEDA E ===================== -->
+<section class="foglio">
+  <p class="occhiello">Scheda E · per un adulto che osserva</p>
+  <h2>Diario di osservazione</h2>
+  <p class="nota">Osservate 5–8 bambini mentre giocano. Annotate solo fatti, con parole semplici: cosa fa, cosa dice, dove si ferma. Non si giudica il bambino: si osserva il gioco.</p>
+  <div class="campo"><b>Data:</b> <span class="riga" style="max-width:140px"></span> <b>Gioco:</b> <span class="riga"></span> <b>Livello:</b> Con calma · Normale · Sfida</div>
+  <div class="tabella-scroll">
+  <table class="righe-tab alte">
+    <tr>
+      <th style="width:11%">Codice</th>
+      <th style="width:8%">Età</th>
+      <th>Dove si blocca o chiede aiuto</th>
+      <th>Dove chiede "ancora", ride, si entusiasma</th>
+      <th>Cosa dice o fa dopo (parole sulle emozioni, gesti)</th>
+      <th style="width:12%">Aiuto dato dall'adulto</th>
+    </tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </table>
+  </div>
+  <p class="nota">Cose utili da notare: capisce cosa fare senza spiegazioni? Il microfono funziona o passa al dito? Legge i sottotitoli? Usa la pausa? Si stanca prima della fine? Usa fuori dallo schermo il potere dello zaino?</p>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda E</p>
+</section>
+
+<!-- ===================== SCHEDA F ===================== -->
+<section class="foglio">
+  <p class="occhiello" style="font-size:15px">Riservato · da tenere separato e custodito</p>
+  <h2>Foglio dei codici</h2>
+  <div class="riquadro rosso">
+    <p style="margin:0"><b>Questo foglio è l'unico che collega i codici ai nomi.</b> Resta alla scuola o al reparto, in un luogo chiuso, separato dalle schede. Non si fotografa, non si scansiona, non si spedisce. Si distrugge alla fine della valutazione.</p>
+  </div>
+  <div class="campo"><b>Scuola / reparto:</b> <span class="riga"></span> <b>Referente:</b> <span class="riga"></span></div>
+  <div class="campo"><b>Prefisso del codice:</b> <span class="riga" style="max-width:120px"></span> <span class="nota">(es. 3B oppure PED)</span></div>
+  <table class="codici" style="font-size:14px">
+    <tr><th style="width:15%">Codice</th><th>Nome e cognome</th><th style="width:17%">Consenso firmato</th><th style="width:17%">Non partecipa / si ritira</th></tr>
+    <tr><td>__-01</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-02</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-03</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-04</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-05</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-06</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-07</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-08</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-09</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-10</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-11</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-12</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-13</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-14</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-15</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-16</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-17</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-18</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-19</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-20</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-21</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-22</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-23</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-24</td><td></td><td>□</td><td>□</td></tr>
+    <tr><td>__-25</td><td></td><td>□</td><td>□</td></tr>
+  </table>
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda F · riservata</p>
+</section>
+
+</main>
+</body>
+</html>

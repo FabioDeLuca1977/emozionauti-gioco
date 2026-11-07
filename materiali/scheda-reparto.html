@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scheda per il reparto · Emozionauti Gioca</title>
+<style>
+  :root {
+    --ink: #233650;
+    --ink-soft: #4d5d74;
+    --naso: #e23a48;
+    --carta: #fffdf9;
+    --tenue: #f6efe6;
+    --linea: #c9cfd8;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: #f1ece4;
+    color: var(--ink);
+    font-family: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .barra {
+    position: sticky; top: 0; z-index: 2;
+    display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap;
+    max-width: 210mm; margin: 0 auto; padding: 10px 16px;
+    background: #f1ece4;
+  }
+  .barra p { margin: 0; font-size: 14px; color: var(--ink-soft); }
+  .stampa {
+    font: inherit; font-weight: 700; font-size: 16px;
+    color: #fff; background: var(--naso); border: 0; border-radius: 999px;
+    padding: 10px 22px; cursor: pointer;
+  }
+  .stampa:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  main { max-width: 210mm; margin: 0 auto; padding: 0 16px 40px; }
+  .foglio {
+    background: var(--carta);
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(35, 54, 80, .12);
+    padding: 28px clamp(16px, 5vw, 40px);
+    margin: 0 0 24px;
+  }
+  h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; }
+  h1 { font-size: clamp(26px, 6vw, 34px); }
+  h2 { font-size: 22px; border-bottom: 3px solid var(--naso); padding-bottom: 4px; display: inline-block; margin-top: .6em; }
+  h3 { font-size: 17px; margin-top: 1em; }
+  p, ul, ol { margin: 0 0 .8em; }
+  li { margin-bottom: .3em; }
+  .occhiello { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--naso); margin: 0 0 6px; }
+  .piede { font-size: 12px; color: var(--ink-soft); border-top: 1px solid var(--linea); padding-top: 8px; margin-top: 20px; }
+  .riquadro { border: 2px solid var(--ink); border-radius: 10px; padding: 14px 18px; margin: 16px 0; }
+  .riquadro.rosso { border-color: var(--naso); }
+  .riquadro h3 { margin-top: 0; }
+  .nota { font-size: 14px; color: var(--ink-soft); }
+  .momenti { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 12px 0; }
+  @media (max-width: 680px) { .momenti { grid-template-columns: 1fr; } }
+  .momento { border: 2px solid var(--ink); border-radius: 12px; padding: 14px 14px 6px; }
+  .momento .quando { display: inline-block; background: var(--naso); color: #fff; font-weight: 700; letter-spacing: .06em; border-radius: 999px; padding: 2px 12px; font-size: 14px; margin-bottom: 6px; }
+  .momento h3 { margin: 0 0 6px; }
+  .momento ul { padding-left: 18px; }
+  .momento svg { width: 44px; height: 44px; float: right; color: var(--ink); }
+  .due { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 560px) { .due { grid-template-columns: 1fr; } }
+  .si li::marker { content: "✓  "; color: var(--ink); font-weight: 700; }
+  .no li::marker { content: "✗  "; color: var(--naso); font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 14.5px; }
+  th, td { border: 1px solid var(--linea); padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: var(--tenue); }
+
+  @page { size: A4; margin: 13mm 13mm 15mm; }
+  @media print {
+    body { background: #fff; font-size: 10.5pt; }
+    .barra { display: none; }
+    main { max-width: none; padding: 0; }
+    .foglio { box-shadow: none; border-radius: 0; padding: 0; margin: 0; background: #fff; }
+    .foglio + .foglio { break-before: page; page-break-before: always; }
+    .riquadro, .momento, tr { break-inside: avoid; page-break-inside: avoid; }
+    h2, h3 { break-after: avoid; page-break-after: avoid; }
+    .momenti { grid-template-columns: repeat(3, 1fr); }
+    .due { grid-template-columns: 1fr 1fr; }
+    .momento .quando { background: #fff; color: var(--naso); border: 1.5px solid var(--naso); }
+    th { background: #f3f3f3; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+<script src="pagina.js" defer></script>
+</head>
+<body>
+
+<div class="barra">
+  <p>Emozionauti Gioca · materiale gratuito, si può fotocopiare</p>
+  <button class="stampa" type="button" onclick="window.print()">Stampa</button>
+</div>
+
+<main>
+
+<section class="foglio">
+  <p class="occhiello">Per clown, educatori di ludoteca, scuola in ospedale e personale di reparto</p>
+  <h1>Scheda per il reparto</h1>
+  <p>Emozionauti Gioca è uno <b>strumento di relazione e di calma</b>: piccoli giochi da fare <b>insieme</b> al bambino o al ragazzo, mai da lasciargli in mano per "tenerlo buono". Il valore è nella presenza dell'adulto e nelle parole che nascono dopo.</p>
+
+  <h2>Tre momenti</h2>
+  <div class="momenti">
+    <div class="momento">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="18" cy="20" r="5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="30" cy="16" r="3.5" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="28" cy="29" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+      <span class="quando">PRIMA</span>
+      <h3>Preparare</h3>
+      <p class="nota">In attesa di un esame, di un prelievo, di una procedura.</p>
+      <ul>
+        <li><b>Bolle di calma</b> (versione lenta della corsia): respiri lunghi e morbidi per calmare Ciuffo.</li>
+        <li><b>Il soffio del drago</b>: soffi lenti che trasformano le fiammate in lanterne e stelle.</li>
+        <li><b>Il mio supereroe interno</b>: dare un nome e una forma alla paura, e trasformare i mostri in amici.</li>
+      </ul>
+      <p class="nota">Il respiro imparato qui si porta dentro la procedura, anche senza schermo: "facciamo i soffi del drago".</p>
+    </div>
+    <div class="momento">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6 L39 12 V24 C39 33 32 39 24 42 C16 39 9 33 9 24 V12 Z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M17 24 L22 29 L31 19" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="quando">DURANTE</span>
+      <h3>Distrarre, con leggerezza</h3>
+      <p class="nota">Solo se il personale è d'accordo, caso per caso.</p>
+      <ul>
+        <li><b>Squadra di difesa</b>: portare acqua, sonno, medicine o sorrisi agli amici buffi; c'è il pulsante "Arriva il clown" quando serve una mano.</li>
+        <li><b>Bolle di calma</b>: il respiro lento, se il bambino lo desidera.</li>
+      </ul>
+      <p><b>Mai durante una procedura senza l'ok del personale.</b> Chi esegue la procedura ha la precedenza: se vi chiedono di fermarvi o di spostarvi, lo fate subito. Il tablet non deve intralciare né distrarre chi lavora.</p>
+    </div>
+    <div class="momento">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="7" y="12" width="34" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="3"/><path d="M7 14 L24 27 L41 14" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><circle cx="24" cy="30" r="4" fill="currentColor"/></svg>
+      <span class="quando">DOPO</span>
+      <h3>Elaborare</h3>
+      <p class="nota">Quando la tensione scende, o alla visita successiva.</p>
+      <ul>
+        <li><b>La busta per il clown</b>: scrivere cosa pesa, cosa fa ridere o una domanda; il clown risponde con una cartolina alla visita dopo.</li>
+        <li><b>Il meteo del cuore</b> (per i piccoli): che tempo fa adesso nel cuore? Come lo cambiamo insieme?</li>
+        <li><b>Il mio supereroe interno</b>: il clown riprende la missione e si racconta com'è andata.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="nota">Per i più piccoli vanno bene anche Il cestino delle coccole e Lo zoo delle statue (se possono muoversi). Per i ragazzi più grandi: La busta per il clown (versione superiori), I colori di dentro e Scudo anti-stress. Scegliete sempre in base alle condizioni del momento, non all'età soltanto.</p>
+
+  <h2>Cosa dire e cosa evitare</h2>
+  <div class="due">
+    <div class="riquadro">
+      <h3>Sì</h3>
+      <ul class="si">
+        <li><b>Accogliere</b>: "Hai paura, è normale. Io sono qui con te."</li>
+        <li><b>Dire la verità con parole semplici</b>: "Sentirai un pizzico, poi passa. Facciamo i soffi insieme."</li>
+        <li><b>Offrire scelte vere</b>: "Vuoi le bolle o il drago?", "Lo facciamo adesso o dopo?"</li>
+        <li><b>Nominare</b> l'emozione senza giudicarla: rabbia, paura, tristezza, noia vanno tutte bene.</li>
+        <li><b>Lodare l'impegno</b>, non il "coraggio": "Hai respirato piano piano, bravissimo."</li>
+        <li>Fermarsi quando il bambino dice basta.</li>
+      </ul>
+    </div>
+    <div class="riquadro rosso">
+      <h3>No</h3>
+      <ul class="no">
+        <li><b>Mai "non fa male"</b> o "è niente": se poi fa male, la fiducia si rompe.</li>
+        <li>Non dire "non piangere", "sii coraggioso", "i grandi non hanno paura".</li>
+        <li><b>Non forzare a parlare</b> o a scrivere: il silenzio e il gioco bastano.</li>
+        <li>Non usare il gioco come premio o ricatto ("se stai fermo, poi giochi").</li>
+        <li>Non promettere cose che non dipendono da voi ("domani torni a casa").</li>
+        <li>Non interpretare i disegni o i messaggi: ascoltate e, se qualcosa vi preoccupa, parlatene con il personale.</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda per il reparto</p>
+</section>
+
+<section class="foglio">
+  <h2>Uso pratico</h2>
+  <table>
+    <tr><th style="width:28%">Cosa</th><th>Come</th></tr>
+    <tr><td><b>Una mano sola</b></td><td>I giochi si usano con un dito, in verticale o in orizzontale: va bene anche con una flebo o con il braccio bloccato.</td></tr>
+    <tr><td><b>Pausa</b></td><td>Il pulsante <b>Pausa</b> ferma tutto (gioco, musica e voce). Il gioco si mette in pausa anche da solo quando si cambia app o si spegne lo schermo: se entra un'infermiera, potete fermarvi subito.</td></tr>
+    <tr><td><b>Microfono facoltativo</b></td><td>Nei giochi di respiro si può soffiare nel microfono, che ascolta solo il volume e non registra niente. Se il soffio non si sente (rumore, mascherina, stanchezza), il gioco passa da solo al dito: si tiene premuto per inspirare e si lascia per soffiare.</td></tr>
+    <tr><td><b>Volume</b></td><td>Tenete il volume basso nelle stanze condivise e di notte; con le cuffie, solo se il reparto lo permette e il bambino le vuole.</td></tr>
+    <tr><td><b>Sottotitoli</b></td><td>Mostrano le frasi della voce narrante: utili con il volume basso, per chi non sente bene e per chi impara l'italiano.</td></tr>
+    <tr><td><b>Movimento ridotto</b></td><td>Riduce animazioni e scosse dello schermo: utile con nausea, mal di testa o stanchezza.</td></tr>
+    <tr><td><b>Livelli di aiuto</b></td><td><b>Con calma</b> toglie fretta e punteggio: in reparto è quasi sempre la scelta giusta.</td></tr>
+  </table>
+
+  <div class="due">
+    <div class="riquadro">
+      <h3>Igiene</h3>
+      <p style="margin:0">Usate un <b>dispositivo dedicato</b> al reparto oppure <b>disinfettatelo tra un bambino e l'altro</b>, secondo le regole del reparto e con i prodotti indicati dal personale (anche la custodia). Nei reparti con isolamento chiedete sempre prima. Lavate o disinfettate le mani prima e dopo.</p>
+    </div>
+    <div class="riquadro">
+      <h3>Privacy</h3>
+      <p>La piattaforma <b>non raccoglie dati</b>: niente account, niente registrazioni, niente nomi.</p>
+      <p>Le buste per il clown <b>restano solo sul tablet</b>. La modalità clown si apre <b>tenendo premuto per 3 secondi</b> il pulsante "Per il clown: tieni premuto" (o dall'area adulti). Quando il bambino lascia il reparto, usate <b>"Consegna e svuota la cassetta"</b>, così chi viene dopo non vede i messaggi.</p>
+      <p style="margin:0" class="nota">Non fotografate lo schermo con i messaggi dei bambini.</p>
+    </div>
+  </div>
+
+  <div class="riquadro rosso">
+    <h3>Nessuna promessa clinica</h3>
+    <p style="margin:0">Emozionauti Gioca <b>non è un dispositivo medico e non riduce il dolore</b>. Non sostituisce la preparazione alla procedura fatta dal personale, né l'analgesia, né il supporto psicologico. È uno strumento di relazione e di calma: aiuta a stare insieme, a respirare più piano, a dare un nome a quello che si prova. Se un bambino vi racconta qualcosa che vi preoccupa, segnalatelo al personale del reparto.</p>
+  </div>
+
+  <h3>Prima di cominciare in un nuovo reparto</h3>
+  <ul>
+    <li>Presentate lo strumento alla coordinatrice o al coordinatore infermieristico e, se c'è, al servizio di psicologia.</li>
+    <li>Concordate quando si può usare (attese, ludoteca, letto) e quando no.</li>
+    <li>Provate i giochi voi prima, con il volume e il microfono del tablet del reparto.</li>
+    <li>Se volete raccogliere il parere di bambini e personale, usate il <b>Kit di valutazione su carta</b> dell'area adulti, senza nomi.</li>
+  </ul>
+
+  <p class="piede">Emozionauti Gioca · materiale gratuito, si può fotocopiare · Scheda per il reparto</p>
+</section>
+
+</main>
+</body>
+</html>

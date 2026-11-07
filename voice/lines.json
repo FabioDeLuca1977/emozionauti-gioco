@@ -1,0 +1,5527 @@
+[
+  {
+    "id": "cd6417fd",
+    "text": "Com'è il tempo nel tuo cuore oggi?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "32be07a3",
+    "text": "Tocca il cielo che ti somiglia di più.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "772bc27e",
+    "text": "Ti somiglia? Tocca ancora per sceglierlo.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f758a538",
+    "text": "Prova a indovinare!",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "bcf90cf7",
+    "text": "Tocca il cielo tre volte.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "0cc0840b",
+    "text": "Ora fatelo davvero.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "49beec30",
+    "text": "Avete cambiato il tempo insieme! Stasera chiedete a qualcuno: com'è il tempo nel tuo cuore oggi?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "3e2ae6be",
+    "text": "Sole: felicità.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "a01658a1",
+    "text": "Indovina: perché ha il sole nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "3d6c4da9",
+    "text": "Perché ha il sole nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "fdc43bd5",
+    "text": "Il sole vuol dire felicità.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "97caf21b",
+    "text": "Regaliamo un raggio di sole!",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "475e02f2",
+    "text": "Datevi il cinque e dite una cosa bella di oggi.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "a90b547f",
+    "text": "Cosa ti ha fatto sorridere oggi?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "e1b16c1c",
+    "text": "Con chi hai giocato?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "a24b2f1f",
+    "text": "Qual è stata la cosa più bella?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "0fc6e141",
+    "text": "Nuvole: così così, un po' di stanchezza.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "bdb3d567",
+    "text": "Indovina: perché ha le nuvole nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "34e9b4af",
+    "text": "Perché ha le nuvole nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "5c2113aa",
+    "text": "Le nuvole vuol dire così così, un po' di stanchezza.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "e70bdefd",
+    "text": "Soffiamo via le nuvole",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "ee8628a6",
+    "text": "Una coccola lunga dieci secondi: contate insieme fino a dieci.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "58708455",
+    "text": "Sei un po' stanco o stanca?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "b1c12982",
+    "text": "C'è qualcosa che non è andato come volevi?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "38a1986b",
+    "text": "Cosa ti farebbe stare meglio adesso?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "850052bf",
+    "text": "Pioggia: tristezza.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "6d8348b4",
+    "text": "Indovina: perché ha la pioggia nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "4a35f0ec",
+    "text": "Perché ha la pioggia nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "60eaa30c",
+    "text": "La pioggia vuol dire tristezza.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "d78713c5",
+    "text": "Apriamo l'ombrello",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f0615fba",
+    "text": "Abbraccio-ombrello: chi ha la pioggia si mette sotto le braccia dell'altro, come sotto un ombrello.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "e5a8920e",
+    "text": "Ti è mancato qualcuno oggi?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "4cc01f8c",
+    "text": "Qualcosa ti ha fatto dispiacere?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "7abfc708",
+    "text": "Vuoi un abbraccio?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "693682bb",
+    "text": "Temporale: rabbia.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "643a8349",
+    "text": "Indovina: perché ha il temporale nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "3696a771",
+    "text": "Perché ha il temporale nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f21f2f4a",
+    "text": "Il temporale vuol dire rabbia.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "d8a09970",
+    "text": "Il soffio del drago",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f8d5b666",
+    "text": "Fate insieme tre soffi lenti e lunghi, come il vento che porta via il temporale.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "7b28df4f",
+    "text": "Qualcuno ti ha fatto arrabbiare?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "82904083",
+    "text": "Dove senti il temporale nel corpo?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "b69bfd0a",
+    "text": "Cosa fa calmare il tuo temporale?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "75dc54fe",
+    "text": "Nebbia: paura, confusione.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "8ca9c8ad",
+    "text": "Indovina: perché ha la nebbia nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "3c6cb285",
+    "text": "Perché ha la nebbia nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f70f12e9",
+    "text": "La nebbia vuol dire paura, confusione.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "8134a6a0",
+    "text": "Accendiamo il faro",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "737b1272",
+    "text": "Tenetevi per mano e dite insieme: «Insieme ci vediamo meglio».",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "81c07510",
+    "text": "C'è qualcosa che ti fa paura?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "09ec3b8f",
+    "text": "C'è una cosa che non hai capito?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "255ff5f3",
+    "text": "Chi ti aiuta quando c'è la nebbia?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "65a5754a",
+    "text": "Vento: agitazione, tanta voglia.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "ca96b8fa",
+    "text": "Indovina: perché ha il vento nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "65ad1e72",
+    "text": "Perché ha il vento nel cuore?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "01512721",
+    "text": "Il vento vuol dire agitazione, tanta voglia.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "ffbba53e",
+    "text": "Il vento si calma",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "93d6c394",
+    "text": "Gioco delle statue: restate fermi come statue mentre contate fino a cinque.",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "7ad6a060",
+    "text": "C'è una cosa che aspetti con tanta voglia?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "cfe594c9",
+    "text": "Hai tanta energia nelle gambe?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "d21651ff",
+    "text": "Cosa ti aiuta a fermarti un attimo?",
+    "game": "Il meteo del cuore"
+  },
+  {
+    "id": "f0adcd98",
+    "text": "Ciuffo è arrabbiato. Aiutalo con il tuo respiro.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "67fb7b93",
+    "text": "Tieni premuto il dito e inspira piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "aa68309d",
+    "text": "Ancora una bolla.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "e28e8775",
+    "text": "Soffia.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "925b7900",
+    "text": "Ora lascia e soffia piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d36cb11d",
+    "text": "Inspira dal naso, piano piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "96695459",
+    "text": "Ora soffia piano piano, a lungo.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "5aef09cf",
+    "text": "Più piano, come per non spegnere una candela.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "aae51f72",
+    "text": "Flop d'oro! Che caduta da clown. Ancora, ma piano piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "8991317e",
+    "text": "Niente fretta: tieni premuto ancora un po', piano piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "66ccdd8c",
+    "text": "Hai riprovato con calma: è così che si impara.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "3619ecbc",
+    "text": "Che bel respiro lungo! La nuvoletta è volata via.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "c2125f8a",
+    "text": "Se il soffio non si sente, tieni premuto col dito e lascia andare.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "22297881",
+    "text": "Grazie! Ciuffo è tornato sereno.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "fe35b69c",
+    "text": "Ora fatelo davvero: tre bolle vere, soffiando insieme piano piano. E tu, come stai adesso?",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "1bef8a80",
+    "text": "Ora soffiate una bolla vera insieme al vostro clown, o a chi vi sta vicino: piano piano, a lungo, come le bolle di Ciuffo.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "68d41f9a",
+    "text": "Ciuffo è sereno, ma i suoi amici dormono ancora. Portiamo a ognuno una bolla per svegliarlo.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "1a02dfe4",
+    "text": "Inspira piano: quando la bolla riempie il cerchio, soffiala verso il tuo amico.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d028a48a",
+    "text": "Quasi! Con un respiro un po' più lungo la bolla arriva.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "9c3b8517",
+    "text": "Il fiore si è aperto!",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d555e5b3",
+    "text": "Il gattino si è svegliato e fa le fusa!",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "34089acd",
+    "text": "L'uccellino si è svegliato e canta!",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "4ab108c3",
+    "text": "La lucciola si è accesa!",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "a534b34e",
+    "text": "La stella brilla!",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d54bc651",
+    "text": "Tutti svegli! Sentite? Cantano la canzone di Ciuffo.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "77c1d140",
+    "text": "Ora soffiate una bolla vera e guardate fin dove arriva: piano piano, a lungo.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "8944da8d",
+    "text": "Ci fermiamo qui. Gli amici ti aspettano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "0de14652",
+    "text": "Questo è il tuo giardino. Ogni respiro lento fa nascere qualcosa.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "2df2f89d",
+    "text": "È scesa la notte: arrivano le lucciole e le stelle.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "cac5a828",
+    "text": "È tornato il giorno: sbocciano i fiori.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "2a364d6d",
+    "text": "Il giardino resta qui e ti aspetta.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "4faf197d",
+    "text": "Pinocchio e le emozioni.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "ed50863e",
+    "text": "Hai guardato meglio e hai cambiato idea: è così che si impara.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "65af8967",
+    "text": "Fine della storia. Raccontatevi una volta in cui avete avuto paura di dire la verità.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "d34bc154",
+    "text": "Cosa risponde Pinocchio alla Fata?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "efce98c0",
+    "text": "Bugia! Il naso si allunga ancora...",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "40233028",
+    "text": "La verità! Arrivano i picchi e beccano il naso fino a farlo tornare normale.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "f549eb7f",
+    "text": "Dire la verità a volte fa paura, ma dopo ci si sente leggeri.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "85d8fc31",
+    "text": "Geppetto, un vecchio falegname, prende un pezzo di legno e intaglia un burattino. Lo chiama Pinocchio. Appena finito, il burattino si mette a correre e a fare scherzi!",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "96251aeb",
+    "text": "Come si sente Geppetto con il suo burattino appena finito?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "66a33d6a",
+    "text": "Sì, gioia: Geppetto desiderava tanto un figlio, e adesso ce l'ha.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "c1b56905",
+    "text": "Sì, può essere anche sorpresa: un pezzo di legno che corre e ride! Chi non resterebbe a bocca aperta?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "4e4e29bb",
+    "text": "Capisco: Geppetto è povero e vive da solo. Ma guarda: adesso in casa c'è un burattino che corre e fa scherzi. Cosa sentirà il suo cuore?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "15de3100",
+    "text": "In casa vive un grillo saggio. «Vai a scuola, Pinocchio, e ascolta il tuo babbo», gli dice. Ma Pinocchio si arrabbia: non vuole sentire consigli.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "3912235c",
+    "text": "Quando qualcuno ti dà un consiglio che non ti piace, cosa puoi fare?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "5bda6c0f",
+    "text": "Pinocchio fa proprio così: caccia via il Grillo e resta solo in casa, al freddo e con la pancia vuota. Arrabbiarsi capita a tutti, ma così il consiglio buono si perde.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "c465ad34",
+    "text": "Se Pinocchio facesse un respiro, il Grillo gli spiegherebbe perché la scuola è importante, e forse lui eviterebbe tanti guai.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "5de95db1",
+    "text": "Se Pinocchio dicesse «ci penso», il Grillo resterebbe con lui come amico, pronto ad aiutarlo quando arrivano i guai.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "38435394",
+    "text": "Geppetto vende la sua giacca per comprare a Pinocchio il libro di scuola. Ma per strada Pinocchio sente la musica del teatro dei burattini... e vende il libro per comprarsi il biglietto.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "578c9e54",
+    "text": "Come si sentirebbe Geppetto, se lo sapesse?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "b5f42747",
+    "text": "Sì, tristezza: aveva venduto la sua giacca, in pieno inverno, per quel libro.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "d5a9e363",
+    "text": "Sì, può essere anche rabbia: il suo regalo è sparito per un biglietto. Ci si arrabbia anche con chi si vuole bene.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "44877099",
+    "text": "La vergogna forse la sentirebbe Pinocchio, se il babbo lo scoprisse! Ma Geppetto, che è rimasto senza giacca per lui, cosa sentirebbe?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "fa64a6c1",
+    "text": "Al teatro c'è Mangiafuoco, il burattinaio: ha una barba lunghissima e una voce che fa tremare. Ma quando si commuove starnutisce... e ha un cuore buono: regala a Pinocchio cinque monete d'oro per il suo babbo.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "572e55f3",
+    "text": "Cosa prova Pinocchio davanti a Mangiafuoco?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "fd0ae393",
+    "text": "Sì, paura: guarda quanto è grande Mangiafuoco e quanto è piccolo Pinocchio. E a volte chi sembra spaventoso ha un cuore gentile.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "71591cd4",
+    "text": "Sì, può essere anche sorpresa: un omone che urla... e poi starnutisce e regala monete d'oro!",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "0a5cf655",
+    "text": "Ci vuole coraggio a stare lì davanti, è vero! Ma guarda la barba lunghissima e pensa a quella voce che fa tremare: cosa sente Pinocchio, prima di tutto?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "ccece662",
+    "text": "Sulla strada di casa Pinocchio incontra due furbi: il Gatto e la Volpe. «Se semini le monete nel Campo dei miracoli, nascerà un albero pieno d'oro!»",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "6db73483",
+    "text": "Tu cosa faresti?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "e501266c",
+    "text": "Pinocchio fa proprio così: semina le monete... e il giorno dopo il campo è vuoto, l'oro è sparito. Quando una promessa è troppo bella, meglio chiedere a un grande.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "5bd3be54",
+    "text": "Se Pinocchio tornasse a chiedere a Geppetto, le cinque monete arriverebbero a casa sane e salve. Chiedere a una persona di fiducia protegge.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "3f50a03e",
+    "text": "Se Pinocchio dicesse di no, il Gatto e la Volpe resterebbero a mani vuote e lui riabbraccerebbe il babbo quella sera stessa. Pinocchio, però, ci casca.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "aebabae4",
+    "text": "Stanco e spaventato, Pinocchio trova una Fata buona, con i capelli turchini. Lei lo mette a letto, lo cura e gli vuole bene.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "33876c7d",
+    "text": "Come si sente Pinocchio quando qualcuno si prende cura di lui?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "ee051629",
+    "text": "Sì, sollievo: la paura finisce e il cuore si rilassa.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "e10d413f",
+    "text": "Sì, anche gioia: dopo tanti guai, qualcuno gli vuole bene.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "d39ccbc8",
+    "text": "Era spaventato, è vero! Ma adesso è al caldo nel letto e la Fata lo cura. La paura resta... o se ne va?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "2691f0c4",
+    "text": "La Fata gli chiede: «Dove sono le monete d'oro?». Pinocchio non vuole dire che se le è fatte rubare... e il naso comincia ad allungarsi!",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "04f4374b",
+    "text": "Pinocchio scopre che il suo babbo è partito per mare a cercarlo. Ripensa alla giacca venduta, al libro, alle bugie... e sente un peso nel cuore.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "fdec2264",
+    "text": "Come si chiama questa emozione?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "8bfed1ed",
+    "text": "Si chiama rimorso: ti dispiace per quello che hai fatto e vorresti rimediare. È utile, perché ti spinge a fare meglio.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "858760ff",
+    "text": "Sì, c'è anche tristezza: il babbo è lontano, in mezzo al mare. E il dispiacere per quello che si è fatto ha un nome speciale: rimorso.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "180aa69b",
+    "text": "La vergogna è vicina: si prova quando vorremmo che nessuno ci guardasse. Ma qui Pinocchio è da solo, pensa al babbo e vorrebbe rimediare: come si chiama questo peso?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "7a8e2aeb",
+    "text": "Come può rimediare Pinocchio?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "77c79fdc",
+    "text": "Pinocchio vorrebbe chiedere scusa al babbo... ma il babbo è in mezzo al mare! Per dirglielo deve andare a cercarlo.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "4b9b83cd",
+    "text": "È proprio quello che fa Pinocchio: parte per cercare Geppetto, anche se il mare è grandissimo. Rimediare con i fatti è la scusa più bella.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "77b6e622",
+    "text": "Se Pinocchio si nascondesse, Geppetto resterebbe solo in mezzo al mare e il peso nel cuore non sparirebbe. Così Pinocchio sceglie di partire.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "94af7240",
+    "text": "Pinocchio decide di cercare Geppetto. Un grande colombo lo prende sulla schiena e vola con lui, sopra i paesi e le campagne, fino al mare.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "b0c239e8",
+    "text": "Cosa prova Pinocchio mentre vola verso il mare?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "b3f3931b",
+    "text": "Sì, coraggio: non vuol dire non avere paura, ma andare avanti lo stesso.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "c46cb2ed",
+    "text": "Sì, anche paura: il mare è enorme e lui è un piccolo burattino. Ma va avanti lo stesso, e questo si chiama coraggio.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "cbe8c6f7",
+    "text": "Volare su un colombo dev'essere divertente, è vero! Ma Pinocchio non va a giocare: va a cercare il babbo in un mare grandissimo. Cosa gli serve nel cuore?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "15115339",
+    "text": "Un pesce enorme inghiotte Pinocchio. Nel buio vede una lucina... è Geppetto, seduto a un tavolino con una candela! Si abbracciano forte.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "be9da38e",
+    "text": "Come si sentono Pinocchio e Geppetto? Puoi sceglierne più di una.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "9653b663",
+    "text": "Gioia: si ritrovano dopo tanto tempo e si abbracciano forte.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "9094c555",
+    "text": "Sollievo: la paura di non rivedersi più finalmente finisce.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "660b255d",
+    "text": "Sorpresa: chi si aspettava di trovare il babbo nella pancia di un pesce?",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "55f18a92",
+    "text": "Tutte e tre! Si possono provare tante emozioni insieme.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "f7c1d2a4",
+    "text": "Mentre il Pescecane dorme a bocca aperta, Pinocchio si carica il babbo sulle spalle e nuota nella notte, sotto la luna, fino a riva.",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "d1e62212",
+    "text": "Ogni giorno Pinocchio lavora e si prende cura di Geppetto. Una mattina si sveglia... ed è diventato un bambino vero!",
+    "game": "Pinocchio e le emozioni"
+  },
+  {
+    "id": "415062d7",
+    "text": "Pensieri al volo.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "83987f31",
+    "text": "Taglia i pensieri forti e leggili. Le trappole lasciale cadere.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "7451024a",
+    "text": "Livello due: senza colori. Leggi bene prima di tagliare.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "c39ab3f1",
+    "text": "Quale pensiero forte vuoi portare con te questa settimana?",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "67224fa6",
+    "text": "Leggilo ad alta voce, con la voce di chi ci crede.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "c9089ecd",
+    "text": "Scrivi il tuo pensiero forte su un foglietto e rileggilo prima di un momento difficile.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "8b59e769",
+    "text": "Quale frase la smonta davvero?",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "1cae55fa",
+    "text": "Smontata! Una frase vera e utile spegne la trappola.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "8d0cfa6e",
+    "text": "Troppo bella per crederci: la testa non se la beve, e la trappola torna. Serve una frase vera.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "55ade76e",
+    "text": "Sembra diversa, ma è ancora la stessa trappola con un vestito nuovo.",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "61e17792",
+    "text": "Posso chiedere aiuto",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "b2d64fac",
+    "text": "Ci riprovo con calma",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "de9c1996",
+    "text": "Un errore non dice chi sono",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "c30df2f4",
+    "text": "Respiro e poi decido",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "73753072",
+    "text": "Ho già superato cose difficili",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "1c9f5200",
+    "text": "Sto imparando",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "5c10a7a9",
+    "text": "Va bene non essere perfetti",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "696cc77e",
+    "text": "Posso chiedere invece di indovinare",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "93f8131f",
+    "text": "Questa sensazione passerà",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "3b1175e0",
+    "text": "Un passo alla volta",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "c4428442",
+    "text": "Non ancora non vuol dire mai",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "ba03ca68",
+    "text": "Se è difficile, sto crescendo",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "277a89dd",
+    "text": "Posso essere gentile anche con me",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "548f3e4f",
+    "text": "Ognuno ha il suo ritmo",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "f85c1c82",
+    "text": "Sbagliando ho scoperto qualcosa",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "0c5ad6bd",
+    "text": "Il mio impegno conta",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "f0d1ebc0",
+    "text": "Posso fare una pausa e ripartire",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "d4e8b6e5",
+    "text": "Le emozioni sono messaggi, non ordini",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "9ac1898f",
+    "text": "Ho delle persone su cui contare",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "b895a119",
+    "text": "Posso cambiare strategia",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "31370b9e",
+    "text": "Oggi faccio il meglio che posso",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "f7a29a23",
+    "text": "Il coraggio è provare anche con la paura",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "926e9149",
+    "text": "Una cosa alla volta, la testa si schiarisce",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "429bfdb3",
+    "text": "Posso dire di no con calma",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "fd7101d5",
+    "text": "Se sbaglio la verifica è finita",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "80a1b0ae",
+    "text": "Andrà sicuramente malissimo",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "1078b72d",
+    "text": "O è perfetto o fa schifo",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "30e1ce75",
+    "text": "Tutti pensano che sono strano",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "e2099db4",
+    "text": "Stanno ridendo di me",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "e916458e",
+    "text": "Sono un disastro",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "739be62d",
+    "text": "Sono negato in matematica",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "438db823",
+    "text": "Non mi riesce mai niente",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "3fa65624",
+    "text": "Mi lasciano sempre fuori",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "1aca79b4",
+    "text": "Gli altri sono tutti meglio di me",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "7cb10120",
+    "text": "Non mi risponde: ce l'ha con me",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "8ec05378",
+    "text": "Pochi like: non piaccio a nessuno",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "0fd50cee",
+    "text": "Ho preso quattro: sono stupido",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "66538cb1",
+    "text": "Abbiamo litigato: la mia famiglia è un disastro",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "9e8ba2b2",
+    "text": "Il mio corpo è tutto sbagliato",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "a36faee9",
+    "text": "Agli altri viene tutto facile",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "fe7b6271",
+    "text": "Se dico di no, perdo gli amici",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "4e8461f8",
+    "text": "Se sbaglio alla lavagna, se lo ricorderanno per sempre",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "ceb08900",
+    "text": "Non mi hanno invitato: nessuno mi vuole",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "1c54e043",
+    "text": "Mi ha guardato storto: mi odia",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "c82f58aa",
+    "text": "Sono sempre l'ultimo a capire",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "82b182fb",
+    "text": "Nelle foto sono tutti più belli di me",
+    "game": "Pensieri al volo"
+  },
+  {
+    "id": "e90e52f5",
+    "text": "Quando c'è la musica ballate come gli animali. Quando la musica si ferma... statue!",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "af548cac",
+    "text": "Statua!",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "62c7973b",
+    "text": "Fermi fermi, come statue di pietra.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "cd5863ad",
+    "text": "Siete riusciti a stare fermi?",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "1d2a74e9",
+    "text": "Che controllo! Il corpo ha ascoltato la testa.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "33cc34b7",
+    "text": "Va benissimo: fermarsi è difficile, ed è proprio così che si allena.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "dccaa2d6",
+    "text": "Bravissimi! Ogni volta che vi siete fermati avete allenato il freno del cervello.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "36dca0cb",
+    "text": "Tutta la stanza gioca! Ballate come gli animali e quando la musica si ferma copiate la posa sullo schermo.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "4606e163",
+    "text": "Quanti sono riusciti a stare fermi nella posa?",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "2a50caea",
+    "text": "Tutta la squadra ferma! Che squadra di statue!",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "444165c7",
+    "text": "Quasi tutti! Il freno della squadra funziona.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "0675e390",
+    "text": "Ci siamo mossi in tanti: va benissimo, il prossimo giro ci riproviamo insieme.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "b3889abc",
+    "text": "Giocate alle statue anche senza telefono: uno canta, gli altri ballano, e quando c'è silenzio... statue!",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "baefd9b1",
+    "text": "Muoviti come l'elefante! Passi pesanti, bum bum, e la proboscide che dondola.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "5261f4d8",
+    "text": "Muoviti come la giraffa! Cammina in punta di piedi e allunga il collo e le braccia in alto.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "3591eca8",
+    "text": "Muoviti come l'ippopotamo! Apri la bocca grande grande e cammina piano, con la pancia in fuori.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "1553892d",
+    "text": "Muoviti come la scimmia! Salta, grattati la testa e fai i versi della scimmietta.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "3d111501",
+    "text": "Muoviti come il panda! Dondola piano piano e fai finta di mangiare il bambù.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "f93a113f",
+    "text": "Muoviti come il pappagallo! Sbatti le ali e gira su te stesso.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "98b09bab",
+    "text": "Muoviti come il pinguino! Braccia attaccate al corpo e piedini veloci, dondolando.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "06d43fab",
+    "text": "Muoviti come il maialino! Annusa per terra con il nasino e fai oink oink.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "df1605e2",
+    "text": "Muoviti come il coniglio! Saltella a piedi uniti: hop, hop, hop.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "7269ce05",
+    "text": "Muoviti come il serpente! Ondeggia tutto il corpo come un serpente e fai sssss.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "ba1e2c22",
+    "text": "Statua dell'elefante! Un braccio davanti come una proboscide, l'altro dietro come una coda.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "6c9a35b0",
+    "text": "Statua della giraffa! In punta di piedi, con le braccia dritte in alto.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "98967c69",
+    "text": "Statua dell'ippopotamo! Bocca spalancata e mani sulla pancia.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "a7a8df1c",
+    "text": "Statua della scimmia! Una mano sulla testa e una gamba alzata.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "b6ac8270",
+    "text": "Statua del panda! Seduti per terra, con le mani vicino alla bocca.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "a5a60b13",
+    "text": "Statua del pappagallo! Braccia aperte come ali, su un piede solo.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "40de0c1b",
+    "text": "Statua del pinguino! Braccia attaccate al corpo e punte dei piedi in fuori.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "943078a4",
+    "text": "Statua del maialino! Chinati in avanti, con il naso all'insù.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "08c289f8",
+    "text": "Statua del coniglio! Accovacciati, con due dita in alto come orecchie.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "9ba1c882",
+    "text": "Statua del serpente! Braccia unite in alto e corpo piegato di lato.",
+    "game": "Lo zoo delle statue"
+  },
+  {
+    "id": "e156fabe",
+    "text": "Componete le figure con i sette pezzi del tangram. Ogni figura ha un'emozione: alla fine la fate anche voi, con il corpo!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "6b140437",
+    "text": "Ecco un aiutino: guarda il contorno che si accende.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "91740920",
+    "text": "Ecco un aiuto: adesso dentro la sagoma si vedono i contorni dei pezzi.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "7460c5ee",
+    "text": "Se vuoi, puoi chiedere un aiutino. Chiedere aiuto è una cosa da campioni.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "b4af0fdd",
+    "text": "Hai riprovato e ha funzionato!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "7779876e",
+    "text": "Che bella posa! Il corpo sa raccontare le emozioni.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "97cb7a2b",
+    "text": "Figura dopo figura, emozione dopo emozione: le avete costruite con le mani e con il corpo!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "d3c724d1",
+    "text": "Avete provato, girato e riprovato: è così che i pezzi trovano il loro posto.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "5eff5641",
+    "text": "Hai chiesto aiuto quando serviva: anche questo è da campioni.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "e8172b00",
+    "text": "Inventate una statua con il corpo: uno fa la figura, l'altro indovina l'emozione. Poi scambiatevi!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "0b847214",
+    "text": "Ecco la sagoma: è un gatto. Come si sentirà?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "d29c58d6",
+    "text": "Ce l'avete fatta: è un gatto! Guardate bene la figura: come si sente? Sceglietelo insieme.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "e6e98b33",
+    "text": "È il gatto contento! Vedi le orecchie dritte e la coda distesa di lato? Il gatto sta seduto tranquillo, a suo agio. Quando siamo contenti il corpo si allunga e si rilassa.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "bc947efc",
+    "text": "Ora fate anche voi la posa del gatto contento! Mettetevi a quattro zampe, stiracchiate la schiena come un gatto e fate le fusa con un bel sorriso.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "204a23f0",
+    "text": "Lo pensate anche voi: un gatto seduto con la coda distesa sembra proprio stare bene.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "bfe88c68",
+    "text": "Sì, anche calma: un gatto seduto e disteso è proprio rilassato.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "d1e0ee4b",
+    "text": "Anche questo può essere, i gatti a volte si spaventano! Ma guarda la coda distesa: un gatto spaventato si fa piccolo piccolo.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "22143fd9",
+    "text": "Ecco la sagoma: è una barca. Come si sentirà?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "122f8f99",
+    "text": "Ce l'avete fatta: è una barca! Guardate bene la figura: come si sente? Sceglietelo insieme.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "8c167ef8",
+    "text": "È la barca tranquilla! Vedi la vela dritta e la barca ferma sull'acqua piatta? Niente onde, niente vento forte. Quando siamo calmi il respiro è lento, come le onde piccole.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "2a700612",
+    "text": "Ora fate anche voi la posa della barca tranquilla! Sedetevi uno dietro l'altro e dondolate piano piano, respirando lenti come il mare calmo.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "b6b4e9f8",
+    "text": "Lo pensate anche voi: una barca ferma sull'acqua piatta sembra proprio tranquilla.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "592df7fa",
+    "text": "Sì, anche contentezza: una gita in barca con il mare buono è una bella cosa.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "79e0c003",
+    "text": "Anche questo può essere, il mare a volte fa paura! Ma guarda: la barca è dritta e la vela non si piega. Ci sono onde grandi?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "19467353",
+    "text": "Ecco la sagoma: è un coniglio. Come si sentirà?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "c6def2eb",
+    "text": "Ce l'avete fatta: è un coniglio! Guardate bene la figura: come si sente? Sceglietelo insieme.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "f5c97b9b",
+    "text": "È il coniglio spaventato! Vedi le orecchie dritte, all'erta, e il corpo accucciato, piccolo piccolo? Quando abbiamo paura il corpo si fa piccolo e le orecchie stanno all'erta.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "6363c43a",
+    "text": "Ora fate anche voi la posa del coniglio spaventato! Accucciatevi piccoli piccoli, mani sopra la testa come orecchie dritte e occhi grandi grandi.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "46b9b89b",
+    "text": "Lo pensate anche voi: un coniglio accucciato con le orecchie dritte sembra stare all'erta.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "51639be3",
+    "text": "Sì, anche sorpresa: le orecchie si drizzano anche quando succede una cosa inaspettata.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "4e01eafa",
+    "text": "Anche questo può essere: sta fermo fermo. Ma guarda le orecchie tese verso l'alto: sta ascoltando qualcosa che lo preoccupa?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "6655bc4c",
+    "text": "Ecco la sagoma: è una persona seduta. Come si sentirà?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "19fd762a",
+    "text": "Ce l'avete fatta: è una persona seduta! Guardate bene la figura: come si sente? Sceglietelo insieme.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "92615b06",
+    "text": "È la persona seduta triste! Vedi la testa bassa e le ginocchia strette al petto? Il corpo si chiude come un guscio. Quando siamo tristi il corpo si chiude, e un abbraccio aiuta a riaprirlo.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "3267281f",
+    "text": "Ora fate anche voi la posa della persona seduta triste! Sedetevi per terra, abbracciate le ginocchia e appoggiate la testa. Poi scioglietevi con un abbraccio.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "00e83831",
+    "text": "Lo pensate anche voi: la testa bassa e le ginocchia strette fanno pensare a un cuore pesante.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "189ff6c8",
+    "text": "Sì, può essere anche stanchezza: quando siamo stanchi ci sediamo e appoggiamo la testa.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "b9b80dab",
+    "text": "Anche questo può essere: sta seduto fermo. Ma guarda la testa bassa e le gambe strette: il corpo è aperto o chiuso?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "afa9cfe9",
+    "text": "Ecco la sagoma: è una persona che salta. Come si sentirà?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "a6ee9e59",
+    "text": "Ce l'avete fatta: è una persona che salta! Guardate bene la figura: come si sente? Sceglietelo insieme.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "f5d027cb",
+    "text": "È la persona che salta di gioia! Vedi le braccia in alto e le gambe aperte, a mezz'aria? Il corpo si apre tutto. Quando siamo felici il corpo si apre e vuole saltare.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "3ee50c00",
+    "text": "Ora fate anche voi la posa della persona che salta di gioia! Saltate in alto con le braccia verso il cielo e le gambe aperte: evviva!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "60703f0d",
+    "text": "Lo pensate anche voi: braccia al cielo e un salto così si fanno quando si è felici.",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "c01a991a",
+    "text": "Sì, anche sorpresa: a volte si salta per una bella notizia che non ci aspettavamo!",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "a1187ae1",
+    "text": "Anche questo può essere: c'è chi salta e pesta i piedi quando è arrabbiato. Ma guarda le braccia aperte verso il cielo e le gambe larghe: è un corpo che si chiude o che si apre?",
+    "game": "Tangram delle emozioni"
+  },
+  {
+    "id": "dead05c1",
+    "text": "La nuvoletta è triste. Prendi con il cestino le cose che la consolano.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "c22d8eec",
+    "text": "Muovi il cestino con il dito.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "51af9f4e",
+    "text": "Altre coccole per la nuvoletta!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "c83e143d",
+    "text": "Questo non consola: cerchiamo una coccola.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "d436fcd1",
+    "text": "Ora regala una coccola vera. Scegline una dal cestino.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "c2540143",
+    "text": "Grazie! Hai consolato la nuvoletta, e anche una persona vera.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "28cf6ba0",
+    "text": "Stasera fate il cestino delle coccole vero: ognuno dice cosa lo consola quando è triste.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "ff645aba",
+    "text": "Grazie... mi sento già un po' meglio.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "36b3938b",
+    "text": "Che belle coccole. Adesso sono più serena.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "91ffc797",
+    "text": "Sono felice! Grazie per tutte le coccole.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "7e0d7f81",
+    "text": "Un abbraccio!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "189d7c2f",
+    "text": "Una coperta calda!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "cb3848a5",
+    "text": "Un orsacchiotto morbido!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "021678ff",
+    "text": "Una tazza calda!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "e2a980a6",
+    "text": "Una canzoncina!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "7e425c8c",
+    "text": "Una carezza!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "b1d7c090",
+    "text": "Un amico vicino!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "16ba1fe8",
+    "text": "Dai un abbraccio grande grande, lungo lungo.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "cbd95756",
+    "text": "Avvolgi la tua persona grande con le braccia, come una coperta calda.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "5e722c6b",
+    "text": "Prendi un peluche e fagli fare una coccola alla tua persona grande.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "3360874f",
+    "text": "Soffiate insieme su una tazza immaginaria: piano piano, è calda!",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "d95cfb6a",
+    "text": "Canta una canzoncina alla tua persona grande, anche sottovoce.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "911984cd",
+    "text": "Fai una carezza leggera leggera, sulla mano o sui capelli.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "6bb6518e",
+    "text": "Tenetevi per mano e dite insieme: siamo amici.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "0541a33d",
+    "text": "Un tuono! Fa paura: questo non consola.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "d05dc175",
+    "text": "Brr, pioggia fredda! Questa non consola.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "1ec5fbb4",
+    "text": "Ahi, una spina! Questa non consola.",
+    "game": "Il cestino delle coccole"
+  },
+  {
+    "id": "95cefe65",
+    "text": "Gira due carte alla volta e cerca due facce uguali. Quando le trovi, fate anche voi quella faccia!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d4df3da1",
+    "text": "Gira due carte: trova la faccia e il messaggio che vanno insieme. Poi raccontatevi se è successo anche a voi.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1d51c7f4",
+    "text": "Trova due facce uguali.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "554954cb",
+    "text": "Trova la faccia e il suo messaggio.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1ffaafee",
+    "text": "Non sono uguali. Tornano giù: ricorda dove sono!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "8ce3df96",
+    "text": "Non vanno insieme. Tornano giù: ricorda dove sono!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "7b9703c0",
+    "text": "Vuoi sbirciare un momento? Anche i campioni di memoria ripassano.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "5e835c4f",
+    "text": "Guarda bene... e ricorda!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d1fea52e",
+    "text": "E a te è mai successo?",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "3e687a95",
+    "text": "Hai ricordato dove erano: la memoria si allena come un muscolo!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "e34bbe0e",
+    "text": "Hai provato e riprovato: ogni carta girata aiuta la memoria.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "434cfb40",
+    "text": "Ora le carte sono di più. Pronti?",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "12f8024c",
+    "text": "Tutte le coppie trovate! E quante belle facce avete fatto.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "52ff9374",
+    "text": "Tutte le coppie trovate! Ogni emozione ha le sue storie.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "b9a357dc",
+    "text": "Giocate allo specchio delle facce: uno fa una faccia, l'altro la copia uguale uguale. Poi cambiate!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "e431bea9",
+    "text": "Stasera scegliete un'emozione e raccontatevi un momento della giornata in cui l'avete provata.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "19727f8c",
+    "text": "È l'allegria!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "e18034fd",
+    "text": "È la tristezza!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d51ed74c",
+    "text": "È la rabbia!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1f9df6c4",
+    "text": "È la paura!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "82ba2446",
+    "text": "È la sorpresa!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "e7b4df33",
+    "text": "È la calma!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "7cebb743",
+    "text": "È l'orgoglio!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1d2ac672",
+    "text": "È la vergogna!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "b49940a3",
+    "text": "Fate anche voi la faccia allegra!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1b020206",
+    "text": "Fate anche voi la faccia triste!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "30026ee8",
+    "text": "Fate anche voi la faccia arrabbiata!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "33f20548",
+    "text": "Fate anche voi la faccia spaventata!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "a94d7e6e",
+    "text": "Fate anche voi la faccia sorpresa!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "7db784fb",
+    "text": "Fate anche voi la faccia calma!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "84ccbd22",
+    "text": "Fate tre saltelli di gioia insieme.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "08ec4bcb",
+    "text": "Datevi un abbraccio lento lento.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "3563c768",
+    "text": "Stringete forte i pugni, contate fino a tre... e lasciate andare.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d767757f",
+    "text": "Tenetevi per mano e fate tre respiri lenti.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "a5e6b6a9",
+    "text": "Mani in alto e bocca aperta: oooh!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "5e357bac",
+    "text": "Chiudete gli occhi e ascoltate i suoni intorno a voi.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "0c5c7071",
+    "text": "Battetevi il cinque e ditevi una cosa che sapete fare bene.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1c7910aa",
+    "text": "Ditevi una frase gentile, come a un amico.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d5e4609e",
+    "text": "Ho imparato ad andare in bici!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "11b51fcf",
+    "text": "Oggi giochiamo tutto il pomeriggio al parco!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "e22d6472",
+    "text": "Il mio amico mi ha invitato a dormire da lui!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "4a808334",
+    "text": "Il mio amico si è trasferito lontano.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "70d0e46e",
+    "text": "Ho perso il mio pupazzo preferito.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "72e14666",
+    "text": "Piove e la gita è stata annullata.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "c34b1c48",
+    "text": "Qualcuno ha rotto il mio disegno!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "9cdf75ab",
+    "text": "Mi hanno preso il gioco senza chiedere!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "0567e7da",
+    "text": "Non mi fanno mai fare il mio turno!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "5bdbd6ff",
+    "text": "Sento un rumore strano di notte.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "bd27f52e",
+    "text": "Domani devo fare una puntura.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "6bb14b5d",
+    "text": "Non trovo più la mamma al supermercato.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "3508b964",
+    "text": "C'è una festa a sorpresa per me!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "ba8d0d23",
+    "text": "Ho trovato un regalo sotto il cuscino!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "bda630e6",
+    "text": "In giardino è spuntato un riccio!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "09f6c7b9",
+    "text": "Ascolto la pioggia sotto la coperta.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "d312b27c",
+    "text": "Guardo le nuvole che passano piano piano.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "b674a76a",
+    "text": "La nonna mi legge una storia prima di dormire.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "c9d67105",
+    "text": "Ho finito un puzzle difficilissimo!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "9fab9957",
+    "text": "Ho aiutato un compagno in difficoltà.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "edba46e9",
+    "text": "Ho segnato il mio primo gol!",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "65887d61",
+    "text": "Inciampo davanti a tutta la classe.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "fc5979d2",
+    "text": "Sbaglio una parola leggendo ad alta voce.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "1cb1923b",
+    "text": "Dimentico le parole della recita.",
+    "game": "Scova le coppie"
+  },
+  {
+    "id": "0c32104b",
+    "text": "Volano tante mosse. Taglia quelle che aiutano, lascia cadere le altre. Attento: le forme sono tutte uguali, leggi la scritta!",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "f8337f06",
+    "text": "Taglia le mosse che aiutano.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "db674d8c",
+    "text": "Prima un respiro lungo. Poi pensa: cosa può aiutare? E poi... fai!",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "148111d8",
+    "text": "Respira, pensa, fai.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "cac8f88d",
+    "text": "Nuova situazione.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "158ae01a",
+    "text": "Zaino pieno! Adesso una mossa vera.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "f7df5829",
+    "text": "Scegli una mossa dal tuo zaino e fatela davvero, con il corpo, insieme a un grande.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "8703ea78",
+    "text": "Fatto! Il corpo ha imparato la mossa.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "1dc722ce",
+    "text": "Hai riempito lo zaino di mosse che aiutano. Hai letto, hai scelto e le hai provate con il corpo.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "4df06f0c",
+    "text": "Scegliete insieme una mossa dello zaino da usare questa settimana, a casa o a scuola.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "fa52ca7e",
+    "text": "Così il problema diventa più grande. Prova una mossa che calma.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "1bb88bbc",
+    "text": "Così qualcuno si fa male, anche dentro. Prova una mossa gentile.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "4c24f354",
+    "text": "Così resti da solo con il problema. Prova una mossa che ti avvicina agli altri.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "5a2d4c3d",
+    "text": "Così ti fermi troppo presto. Prova una mossa che ci riprova.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "da8c271f",
+    "text": "Un compagno ti ha preso il gioco",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "8e0f41e3",
+    "text": "Hai sbagliato un esercizio",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "1f2e6902",
+    "text": "Non ti hanno invitato a giocare",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "3515bc8c",
+    "text": "Hai paura del buio",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "faa59256",
+    "text": "Hai litigato con un amico",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "06c63e62",
+    "text": "Alzate piano le braccia mentre prendete aria, abbassatele mentre soffiate. Tre volte, lente.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "b18d3beb",
+    "text": "Dite insieme, con voce lenta e tranquilla: «Mi sono arrabbiato. Ne parliamo?»",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "c401e480",
+    "text": "Il bambino alza la mano come a scuola, e il grande risponde: «Eccomi, ti aiuto io».",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "d231e804",
+    "text": "Un salto indietro, un respiro, e poi un salto grande in avanti: si riparte!",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "3e9f58b5",
+    "text": "Passatevi un oggetto avanti e indietro tre volte, dicendo ogni volta: «Tocca a te».",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "daf29f0c",
+    "text": "Contate insieme fino a dieci a voce bassa, alzando un dito alla volta.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "5d06b218",
+    "text": "Fate i detective: una lente con le mani e cercate piano piano, senza fretta.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "c64ca4d5",
+    "text": "Fate tre passi lenti lenti, uno alla volta, contando ogni passo.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "3cb0158d",
+    "text": "Fate la prova: il bambino chiede «Posso giocare con voi?» e il grande risponde «Certo!».",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "79e4c043",
+    "text": "Camminate per la stanza e date il cinque al primo peluche o alla prima persona che incontrate.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "da0c2805",
+    "text": "Mettete una mano sul cuore e dite, a turno, una parola per l'emozione che sentite.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "5681acbd",
+    "text": "Fate finta di accendere una lucina con un clic, e poi una faccia coraggiosa.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "9846bdd9",
+    "text": "Stringete forte un cuscino o un peluche e fate tre respiri lenti.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "36b99702",
+    "text": "Un abbraccio forte forte, contando insieme fino a cinque.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "fe762fb8",
+    "text": "Datevi la mano, guardatevi negli occhi e dite: «Scusa. Facciamo pace?»",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "11eebcc1",
+    "text": "Inventate una stretta di mano della pace: due battute, un giro e un pollice in su.",
+    "game": "Raccogli la mossa giusta"
+  },
+  {
+    "id": "13d278a0",
+    "text": "Quattro minuti per riaccendere il cervello: ci si muove e si pensa insieme.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "e3a81579",
+    "text": "Se sbagli, ridi e riparti: quando il cervello inciampa, sta imparando.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "1fd05199",
+    "text": "Prossima prova.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "ff439db3",
+    "text": "Ci sei cascato? Nessuno l'ha detto!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "4dc832f6",
+    "text": "Pausa finita. Come ti senti adesso? Rispondi solo a te stesso.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "b12943bb",
+    "text": "Bene: usa questa carica per la prossima attività.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "d4f1b92e",
+    "text": "Va bene così: anche accorgersi di come si sta è un allenamento.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "e091ab96",
+    "text": "Ottimo: hai abbassato il volume dello stress.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "1205fe61",
+    "text": "Guarda i numeri: se è pari alza la mano destra, se è dispari la sinistra.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "00fd4afb",
+    "text": "Di' a voce alta il colore dell'inchiostro, non la parola. Se l'inchiostro è verde, alzati in piedi.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "cf29ac27",
+    "text": "Saltella piano sul posto e conta all'indietro da cinquanta, togliendo tre ogni volta.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "e31211bb",
+    "text": "Mano destra sul naso, mano sinistra sull'orecchio destro. A ogni battito, scambia le mani.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "b959d7b0",
+    "text": "Segui il cerchio: inspira contando fino a quattro, espira lentamente contando fino a sei.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "820d7d77",
+    "text": "Fai un passo nella direzione della freccia. Se la freccia è rossa, fai il passo al contrario.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "1e3a5a2d",
+    "text": "Scrivi in aria il tuo nome con il gomito destro, poi con il ginocchio sinistro.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "0e20cd2c",
+    "text": "Chiudi gli occhi e resta immobile. Conta quanti suoni diversi riesci a sentire.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "13189e5d",
+    "text": "Pugni chiusi davanti a te: alza il pollice destro e il mignolo sinistro. A ogni battito, scambia.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "bece07fa",
+    "text": "Guarda le lettere: se è una vocale piega le ginocchia, se è una consonante resta dritto.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "6bcd581a",
+    "text": "Somma a mente ogni numero al precedente. Quando superi trenta, batti le mani e riparti da zero.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "dc14a570",
+    "text": "Batti le mani a ogni numero, ma sui multipli di tre tocca le spalle invece di battere.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "971a262d",
+    "text": "Stai in equilibrio su un piede. A ogni lettera nuova cambia piede e pensa a una città che comincia così.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "9a0c29ed",
+    "text": "A coppie, uno di fronte all'altro: uno muove piano le mani, l'altro le copia come uno specchio. A metà vi scambiate.",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "f2afaef3",
+    "text": "Fai solo i comandi che cominciano con: il prof dice. Se manca la formula, resta fermo!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "bb6a3691",
+    "text": "Fai solo i comandi che cominciano con: il capo dice. Se manca la formula, resta fermo!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "5f10b8d7",
+    "text": "Il prof dice: alza le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "5d2f2795",
+    "text": "Il capo dice: alza le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "652301a6",
+    "text": "Alza le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "401dca91",
+    "text": "Il prof dice: tocca la testa!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "42619447",
+    "text": "Il capo dice: tocca la testa!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "47abf716",
+    "text": "Tocca la testa!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "211c08e5",
+    "text": "Il prof dice: tocca le spalle!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "1634074f",
+    "text": "Il capo dice: tocca le spalle!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "59cf9f60",
+    "text": "Tocca le spalle!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "9458b2f5",
+    "text": "Il prof dice: batti le mani!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "278ff867",
+    "text": "Il capo dice: batti le mani!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "66c0a0b0",
+    "text": "Batti le mani!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "f26fc405",
+    "text": "Il prof dice: girati verso destra!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "c745e597",
+    "text": "Il capo dice: girati verso destra!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "d0efc268",
+    "text": "Girati verso destra!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "d6c68466",
+    "text": "Il prof dice: stai su un piede!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "369cede8",
+    "text": "Il capo dice: stai su un piede!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "0c1b46d1",
+    "text": "Stai su un piede!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "06ad84f1",
+    "text": "Il prof dice: tocca il naso!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "ec63fb1b",
+    "text": "Il capo dice: tocca il naso!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "a9ebac18",
+    "text": "Tocca il naso!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "699b8157",
+    "text": "Il prof dice: fai un passo avanti!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "2dfbe13d",
+    "text": "Il capo dice: fai un passo avanti!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "c179590a",
+    "text": "Fai un passo avanti!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "e9246524",
+    "text": "Il prof dice: fai un passo indietro!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "02e203d6",
+    "text": "Il capo dice: fai un passo indietro!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "cdc10195",
+    "text": "Fai un passo indietro!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "5b6cb615",
+    "text": "Il prof dice: incrocia le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "6dfb98cb",
+    "text": "Il capo dice: incrocia le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "e4cac5fc",
+    "text": "Incrocia le braccia!",
+    "game": "Pausa per il cervello"
+  },
+  {
+    "id": "5dd651fe",
+    "text": "Benvenuti nel mondo di Emozionauti Gioca! Toccate una porta e si parte.",
+    "game": "L'ingresso"
+  },
+  {
+    "id": "20f16bb0",
+    "text": "Tocca il regalo per aprirlo.",
+    "game": "La dedica"
+  },
+  {
+    "id": "fc5d3739",
+    "text": "Questi giochi sono un regalo per Iacopo e per tutti gli Emozionauti. Per ogni corsia, ogni classe e ogni casa dove portate un naso rosso, una risata e un po' di coraggio.",
+    "game": "La dedica"
+  },
+  {
+    "id": "891d8873",
+    "text": "Fatto. Puoi tornarci quando vuoi.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "c99b7366",
+    "text": "Facciamo tre soffi lenti, come per gonfiare una bolla.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "7f6d3733",
+    "text": "Inspira dal naso",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "71ac96ed",
+    "text": "Soffia piano piano",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ced81c78",
+    "text": "Un respiro lungo che arriva lontano. Pensa a chi vuoi raggiungere.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6996d31d",
+    "text": "Il soffio del drago: lento e lungo, per spegnere il fuoco piano piano.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5a0c360f",
+    "text": "Soffia come un drago gentile",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "afe92daf",
+    "text": "Respiro quadrato: quattro lati, quattro tempi. Poi la tua frase forte.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "37d724d9",
+    "text": "Inspira",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6904f45c",
+    "text": "Tieni",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "e8fde09c",
+    "text": "Butta fuori",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5f2d0ba8",
+    "text": "Che tempo fa nel tuo cuore, adesso?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5f8f87ac",
+    "text": "Sole",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "1e76f9d8",
+    "text": "Nuvole",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5659397f",
+    "text": "Pioggia",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "93396082",
+    "text": "Temporale",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6353ebc3",
+    "text": "Vento",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "112acda5",
+    "text": "Arcobaleno",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9fd1f1a3",
+    "text": "Grazie per avermelo detto. Vuoi raccontarlo anche a qualcuno vicino a te?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "eef6e5e5",
+    "text": "Di che colore ti senti dentro, adesso? Non c'è un colore giusto.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "93cc7cf9",
+    "text": "Giallo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "c6f39de9",
+    "text": "Rosso",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "dac9481a",
+    "text": "Blu",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "7860b2f5",
+    "text": "Verde",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "0078d146",
+    "text": "Viola",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "0433fa44",
+    "text": "Grigio",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "927e5666",
+    "text": "Anche un giorno grigio ha dentro un colore. Se ti va, cercalo intorno a te.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6c648ca3",
+    "text": "Il freno del corpo: ci muoviamo, poi diventiamo statue.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "99ba7122",
+    "text": "Muoviti come vuoi!",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "edbc48d5",
+    "text": "Muoviti ancora!",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "bb75dfa2",
+    "text": "Respira e sciogliti piano",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "890064e4",
+    "text": "Prima respiro, poi penso, poi faccio la mossa che aiuta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9332dbb2",
+    "text": "Rosso: fermati e respira",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "368e4110",
+    "text": "Giallo: pensa a cosa puoi fare",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "24c742b8",
+    "text": "Verde: scegli la mossa che aiuta",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "af99ef79",
+    "text": "Due minuti sono tanti: ne bastano trenta secondi. In piedi!",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ac07390f",
+    "text": "Braccia in alto, stiracchiati",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6f070e96",
+    "text": "Gira le spalle all'indietro",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d6b65b1d",
+    "text": "Marcia sul posto",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "51ce8e96",
+    "text": "Scuoti le mani",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "01915fbd",
+    "text": "Un respiro grande",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "8e8cb470",
+    "text": "Anche tu fai parte della squadra. Tre piccole cose.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "62fa3c49",
+    "text": "Un sorso d'acqua, se puoi",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "cce552a0",
+    "text": "Chiudi gli occhi e riposa un momento",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "02c398e4",
+    "text": "Un sorriso a chi è vicino a te",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2405451b",
+    "text": "Pesca una coccola vera da regalare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5877d084",
+    "text": "Un abbraccio a farfalla",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "4d3ec683",
+    "text": "Un massaggino sulle spalle",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "96da892a",
+    "text": "Disegna un cuore sulla mano di qualcuno",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5be52b9f",
+    "text": "Una parola dolce all'orecchio",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "8271002b",
+    "text": "Un batti cinque gentile",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b8189310",
+    "text": "Un bacio con il naso, all'eschimese",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "cf524ec6",
+    "text": "Pesca una faccia buffa e falla insieme a chi è vicino a te.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "4a29c434",
+    "text": "Gonfia le guance come un pesce",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ca097477",
+    "text": "Sopracciglia su e giù, velocissime",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "693c25c3",
+    "text": "Occhi strabici e naso arricciato",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "69bd9e72",
+    "text": "Sorriso enorme, da orecchio a orecchio",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "13977af2",
+    "text": "Faccia sorpresa: bocca a O!",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a6bd28be",
+    "text": "Fai la linguaccia più gentile del mondo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "e275852d",
+    "text": "Il coraggio della verità. Pesca una frase per cominciare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d7728620",
+    "text": "Posso dirti una cosa vera?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d2e697e3",
+    "text": "Ho sbagliato, e mi dispiace.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "e78b7d95",
+    "text": "Non lo so, ma voglio capire.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "55642ba7",
+    "text": "Oggi ero un po' giù.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "f939e16c",
+    "text": "Questa cosa mi ha fatto arrabbiare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "767f4a6d",
+    "text": "Ho bisogno di una mano.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d4f539ad",
+    "text": "Quando una cosa non viene, giriamo i pezzi. Pesca un modo nuovo.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "7a4c461c",
+    "text": "Prova a cominciare dalla fine",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "8bab2237",
+    "text": "Fai una pausa di un minuto e riprova",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9fc548b3",
+    "text": "Chiedi a qualcuno come farebbe",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a7c30041",
+    "text": "Prova con un pezzo più piccolo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2a5285c4",
+    "text": "Disegnalo invece di pensarlo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a07ec1a3",
+    "text": "Fai al contrario di prima",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "0a27c73a",
+    "text": "Quando arriva un pensiero trappola, rispondi con un pensiero forte. Pescane uno.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "f348d91c",
+    "text": "Posso farcela un passo alla volta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "8031e7e9",
+    "text": "Sbagliare fa parte dell'imparare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "67389d19",
+    "text": "Chiedere aiuto è da forti.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "30a572e9",
+    "text": "Non serve la perfezione: basta il mio meglio.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "91918cf3",
+    "text": "Questo momento passa.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "1d7b20d4",
+    "text": "Ho già superato cose difficili.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "66a2819f",
+    "text": "Mani sui fianchi, petto in fuori: pesca la tua frase da eroe.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "68d589d3",
+    "text": "La paura c'è, e io ci sono.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "cf8fc742",
+    "text": "Ho i miei poteri.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "347f0a60",
+    "text": "Posso chiedere aiuto alla mia squadra.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ca7c734a",
+    "text": "Un passo alla volta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9e0325ba",
+    "text": "Respiro, e vado.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a0efae28",
+    "text": "Sono più forte di quanto penso.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "3c74fcd2",
+    "text": "Una parola gentile. Pescala, e dilla a te o a qualcuno.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "35a97dec",
+    "text": "Stai facendo del tuo meglio.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b5adb40d",
+    "text": "Mi piace stare con te.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "725ee7ac",
+    "text": "Va bene sentirsi così.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "94cd9cd4",
+    "text": "Grazie di esserci.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "de7ba119",
+    "text": "Sei importante.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2f8af57e",
+    "text": "Oggi ce l'hai fatta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "f7aea122",
+    "text": "Insieme si capisce di più. Pesca una domanda da fare a qualcuno.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9c980ca6",
+    "text": "Qual è stata la cosa più bella di oggi?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ec5a7f92",
+    "text": "C'è qualcosa che ti ha fatto arrabbiare?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "cc8bf58d",
+    "text": "Di cosa hai bisogno adesso?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "0a158ab1",
+    "text": "Che cosa ti fa ridere sempre?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "930d8d83",
+    "text": "Chi ti ha aiutato oggi?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "292026df",
+    "text": "Che cosa ti piacerebbe fare insieme?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2efccbd2",
+    "text": "Il sì che accoglie. Pesca un inizio e continuate con \"sì, e...\"",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "12dd50cc",
+    "text": "Oggi andiamo sulla luna in bicicletta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9b3d5dd0",
+    "text": "Il gatto ha imparato a cucinare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "32b93ecf",
+    "text": "Abbiamo trovato una porta nel muro.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "e4101c5a",
+    "text": "Piove caramelle.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "f9a5101d",
+    "text": "Il clown ha perso il naso.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "e9210aa7",
+    "text": "La scuola galleggia sul mare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "5e65915a",
+    "text": "Quando qualcuno aiuta, diglielo. Pesca come.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "c2503773",
+    "text": "Grazie per avermi aiutato.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d6476d76",
+    "text": "Hai avuto un'idea bellissima.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "65cfd586",
+    "text": "È stato bello fare squadra con te.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d061a208",
+    "text": "Mi hai fatto ridere, grazie.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "75f1b236",
+    "text": "Grazie per la tua gentilezza.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "c31f95a5",
+    "text": "Senza di te non ce l'avrei fatta.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b3885dda",
+    "text": "Prima di giudicare, guarda con gli occhi dell'altro. Pesca una domanda.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "d9dbb938",
+    "text": "Come la vede l'altra persona?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "657a63b0",
+    "text": "Cosa potrebbe sentire, adesso?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "45cd11c7",
+    "text": "Cosa non so della sua giornata?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "886690d3",
+    "text": "Cosa vorrei che pensasse di me, al suo posto?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "18e5d8ea",
+    "text": "C'è un'altra spiegazione possibile?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ceef1ce1",
+    "text": "Cosa potrei chiedere, invece di supporre?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "af116129",
+    "text": "Occhi da detective. Pesca una missione per guardare bene le facce.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "78ab7d00",
+    "text": "Guarda chi è vicino: come sta, secondo te?",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "bfd1e57e",
+    "text": "Fate a turno una faccia e indovinate l'emozione.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "af8edd34",
+    "text": "Cerca un sorriso intorno a te.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a82cec56",
+    "text": "Imita la faccia di chi ti sta davanti.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6081cfd6",
+    "text": "Se qualcuno sembra stanco, chiedi come va.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "065fbcd1",
+    "text": "Fai la faccia di quando sei contento.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "f65a07e9",
+    "text": "Usa una tua forza in una cosa piccola, oggi. Pescala.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "16aeff5d",
+    "text": "Gentilezza: fai un piccolo favore.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "479c86bd",
+    "text": "Curiosità: chiedi una cosa che non sai.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2634eef3",
+    "text": "Coraggio: prova una cosa nuova.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b74b83a5",
+    "text": "Umorismo: fai ridere qualcuno.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "633cdb5c",
+    "text": "Pazienza: aspetta il tuo turno con calma.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a8f34591",
+    "text": "Creatività: disegna una cosa in un modo nuovo.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "76b4a4db",
+    "text": "Ciao, sono Ciuffo! Io sento tutto fortissimo. Mi aiuti? Tocca una porta e giochiamo insieme.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "b4310622",
+    "text": "Ciao, sono Ciuffo. Oggi giochiamo piano piano, insieme. Tocca una porta.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "49eddc7a",
+    "text": "Annuso il fiore, soffio la candela: torna la calma, piano, come una vela.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "ed0ad237",
+    "text": "Tocca ancora e si parte!",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "02652a8a",
+    "text": "Qui teniamo i poteri trovati insieme. Tocca me, se vuoi una capriola.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "95f6be66",
+    "text": "Ehi, che solletico!",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "e4961d8a",
+    "text": "Oplà! Flop d'oro!",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "6cebe6da",
+    "text": "Sono Ciuffo, il tuo compagno di viaggio.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "f2cd9f82",
+    "text": "Calma Ciuffo con le bolle.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "276cc4ca",
+    "text": "Balla come gli animali.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "103305c8",
+    "text": "Vesti il clown e fai le facce.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "1e676fcd",
+    "text": "Che tempo fa nel tuo cuore?",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "57019797",
+    "text": "Il meteo del cuore.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "a468f79e",
+    "text": "Il camerino del clown.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "2655e27c",
+    "text": "Bolle di calma.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "d3db24a4",
+    "text": "Lo zoo delle statue.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "58e84f92",
+    "text": "Scova le coppie.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "66088719",
+    "text": "Il cestino delle coccole.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "1b1da479",
+    "text": "Il tuo supereroe interno.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "62d16efa",
+    "text": "Il soffio del drago.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "2ec63e02",
+    "text": "Aiuta i tuoi amici buffi.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "0517bb59",
+    "text": "Una busta per il clown.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "682e5cd4",
+    "text": "Il mio supereroe interno.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "4eb45c72",
+    "text": "La busta per il clown.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "644ff44b",
+    "text": "Squadra di difesa.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "22ef767e",
+    "text": "Comanda il clown",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "18e09c4c",
+    "text": "Comanda il grande",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "191f6e70",
+    "text": "Tocca un comando: il clown, o chi è con te, lo fa davvero. E a volte sbaglia apposta!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "3031a089",
+    "text": "Oggi comandi tu! Tocca un comando e guarda cosa succede.",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "863281e4",
+    "text": "Che spettacolo!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "052e9935",
+    "text": "Un applauso a chi ha comandato e a chi ha eseguito.",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "6aec9d8d",
+    "text": "Il respiro in due: mettetevi uno di fronte all'altro e guardatevi. Chi ride per primo ricomincia!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "804f4ac2",
+    "text": "Annusate il fiore, insieme",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "ddbbedec",
+    "text": "Soffiate la candela, piano",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "3a9748b3",
+    "text": "Salta!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "fdb59181",
+    "text": "Cadi!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "c52397ea",
+    "text": "Starnuta!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "0f1e6548",
+    "text": "Al rallentatore!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "8a4be325",
+    "text": "Giravolta!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "60bc518e",
+    "text": "Inchino!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "3452512e",
+    "text": "Ridi!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "71342e8c",
+    "text": "Faccia triste!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "4854138c",
+    "text": "Faccia fiera!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "675736cb",
+    "text": "Faccia di paura!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "80ebfe76",
+    "text": "Faccia arrabbiata!",
+    "game": "La visita del clown"
+  },
+  {
+    "id": "8350db7c",
+    "text": "Prima di atterrare, un respiro insieme.",
+    "game": "Il rientro alla base"
+  },
+  {
+    "id": "ce524a3b",
+    "text": "Ecco i poteri di oggi. Scegline uno da portare a casa.",
+    "game": "Il rientro alla base"
+  },
+  {
+    "id": "b64bbc62",
+    "text": "Oggi abbiamo giocato insieme. Anche questo è un potere.",
+    "game": "Il rientro alla base"
+  },
+  {
+    "id": "8ad7b5e3",
+    "text": "Il viaggio è finito. Lo schermo può riposare.",
+    "game": "Il rientro alla base"
+  },
+  {
+    "id": "a97c3ab5",
+    "text": "Il viaggio è finito. Buon riposo.",
+    "game": "Il rientro alla base"
+  },
+  {
+    "id": "7274b939",
+    "text": "Nuovo potere nello zaino: Il soffio lento.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "904a1f5a",
+    "text": "Nuovo potere nello zaino: Il respiro lungo.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "61dc7ee1",
+    "text": "Nuovo potere nello zaino: Il tempo del cuore.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "444e4607",
+    "text": "Nuovo potere nello zaino: Il freno del corpo.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "3b86c838",
+    "text": "Nuovo potere nello zaino: Occhi da detective.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "bc727389",
+    "text": "Nuovo potere nello zaino: La coccola pronta.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "f1ad2210",
+    "text": "Nuovo potere nello zaino: Il coraggio della verità.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "058b0623",
+    "text": "Nuovo potere nello zaino: La pazienza dei pezzi.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "4354495f",
+    "text": "Nuovo potere nello zaino: La mossa giusta.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "57333388",
+    "text": "Nuovo potere nello zaino: La ricarica del cervello.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "10af66a6",
+    "text": "Nuovo potere nello zaino: Il pensiero forte.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "aa79c185",
+    "text": "Nuovo potere nello zaino: La calma del drago.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "fc0f7586",
+    "text": "Nuovo potere nello zaino: Lo scudo dell'eroe.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "770a0efc",
+    "text": "Nuovo potere nello zaino: La faccia buffa.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "f8a2f57c",
+    "text": "Nuovo potere nello zaino: La parola gentile.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "e0869d2e",
+    "text": "Nuovo potere nello zaino: La squadra che si parla.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "07a0f573",
+    "text": "Nuovo potere nello zaino: Il sì che accoglie.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "80b8d7a0",
+    "text": "Nuovo potere nello zaino: I colori di dentro.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "e4993423",
+    "text": "Nuovo potere nello zaino: La stella della squadra.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "c3d38662",
+    "text": "Nuovo potere nello zaino: Gli occhi dell'altro.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "bb97960c",
+    "text": "Nuovo potere nello zaino: La mia forza.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "3f11b736",
+    "text": "Nuovo potere nello zaino: Lo scudo anti-stress.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "92278c4c",
+    "text": "Nuovo potere nello zaino: La squadra che si aiuta.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "b4a0d02a",
+    "text": "Ecco il tuo zaino dei poteri.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "504c0289",
+    "text": "Lo zaino è ancora vuoto. Ogni gioco finito ti lascia un potere.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "ba7ab9e6",
+    "text": "Questo draghetto ha il fuoco che scoppietta e non riesce a calmarsi. Lo aiutiamo con soffi lenti e lunghi?",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "8c5ba422",
+    "text": "Tieni premuto e prendi tanta aria, piano piano. Poi lascia e soffia sul fuoco, lento lento.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "fa2c3172",
+    "text": "Prendi aria dal naso, poi soffia sul fuoco, lento lento.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "ae7d8f89",
+    "text": "Guarda! La fiamma è diventata una lanterna.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "82aa6210",
+    "text": "Una farfalla di luce! Il soffio lento fa magie.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "86f72b6c",
+    "text": "La fiamma è volata in cielo: ora è una stella.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "48b1df66",
+    "text": "Che soffio di velluto! Il drago respira insieme a te.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "76b02f3d",
+    "text": "Etciù! Il drago ha starnutito scintille. Niente paura: riproviamo più lento e più lungo.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "f520e312",
+    "text": "Piano piano, se no il drago starnutisce!",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "edc61778",
+    "text": "Tieni premuto ancora un po', per prendere tanta aria.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "28f5924d",
+    "text": "Soffia ancora, lento e lungo.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "aa9e5c98",
+    "text": "Se il soffio non si sente, tieni premuto col dito e lascia andare: anche così il drago si calma.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "dd45dc8f",
+    "text": "Il microfono non è disponibile, ma non importa: giochiamo con il dito.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "b2b07cde",
+    "text": "Il drago è calmo. Ora accende le finestre del villaggio, con un fiato dolce dolce.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "3b4d8697",
+    "text": "E adesso si addormenta. Buonanotte, draghetto.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "34417468",
+    "text": "Bravissimo! Con i tuoi soffi lenti il fuoco è diventato luce.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "dacb6b17",
+    "text": "Io sono Ciuffo. Il drago lo calmiamo io e te: tu soffi, io respiro con te.",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "e302f7c7",
+    "text": "Quando il cuore scoppietta, fai il drago anche senza schermo: tre soffi lenti e lunghi, uno dopo l'altro. Se c'è qualcuno con te, fatelo insieme: chi fa il soffio più morbido?",
+    "game": "Il soffio del drago"
+  },
+  {
+    "id": "cd6dfac0",
+    "text": "Qui puoi scrivere una busta per il clown. Quello che scrivi resta solo su questo dispositivo.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "fc5fb579",
+    "text": "Io sono Ciuffo e ti tengo compagnia mentre scrivi. Non leggo niente: la busta è solo per il clown.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "7a4c8914",
+    "text": "Se qualcosa ti fa stare molto male, dillo subito a un adulto: non aspettare la risposta.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "6b52e8b0",
+    "text": "Cosa vuoi dire al clown? Se ti aiuta, parti da una delle frasi.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "a26a3e21",
+    "text": "Scrivi almeno qualche parola, anche solo una.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "a968312f",
+    "text": "Pieghiamo la lettera e mettiamola nella busta.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "e6ba4729",
+    "text": "Ora tocca il sigillo, per chiudere la busta.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "8481a4e2",
+    "text": "Sigillata!",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "1678911b",
+    "text": "Spedita! Il clown la troverà alla prossima visita.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "02373349",
+    "text": "Prima della prossima busta, di' una parola gentile a qualcuno oggi: un grazie, un complimento, oppure come stai?",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "5b0ca86b",
+    "text": "Ecco la cassetta delle risposte.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "5f60ef34",
+    "text": "C'è una risposta nuova per te!",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "f7dce49f",
+    "text": "La cassetta è ancora vuota. Le risposte arrivano quando passa il clown.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "5d14067c",
+    "text": "Modalità clown. Da aprire insieme al clown o a un adulto di fiducia.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "d9e78d65",
+    "text": "Tocca il sigillo per aprire la busta.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "c5294670",
+    "text": "Risposta spedita. La troverà nella sua cassetta.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "141ba32c",
+    "text": "Cassetta svuotata. È pronta per il prossimo ragazzo.",
+    "game": "La busta per il clown"
+  },
+  {
+    "id": "75291fda",
+    "text": "Una storia a turno. Ognuno accoglie l'idea di prima e aggiunge la sua. Si comincia sempre con: sì, e...",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "435f699f",
+    "text": "Ecco l'inizio. Chi comincia? Ricordate: sì, e...",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "0261972a",
+    "text": "Sì, e... avanti il prossimo!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "fadb31fa",
+    "text": "Regalo! Un errore è un regalo: trasformalo in un'idea. Si riparte con: sì, e...",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "d7555423",
+    "text": "Carta segreta! Chi parla viene allo schermo, tutti gli altri chiudono gli occhi.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "8b80b178",
+    "text": "Occhi aperti! Ora la frase, con l'emozione segreta. Pubblico: che emozione è?",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "ff6fe8ae",
+    "text": "Tempo! Chi raccoglie la storia?",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "f98e76a8",
+    "text": "Ultima frase: chiudete la storia con un finale.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "5f9df1cd",
+    "text": "Ora tocca al pubblico. Che cosa vi ha fatto provare questa storia?",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "b26440b4",
+    "text": "Alzate la mano per l'emozione che avete provato. Chi conduce conta le mani.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "7de0ecdc",
+    "text": "Un attimo di silenzio, l'applausometro ascolta la stanza.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "d3cccec4",
+    "text": "Signore e signori: la vostra storia è diventata un film!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "2df5f152",
+    "text": "Bravi! Ogni sì ha fatto crescere la storia. Anche gli errori sono diventati idee.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "600e30f3",
+    "text": "Missione di oggi: dì sì, e... a un'idea di qualcun altro, e guarda dove vi porta.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "ea396821",
+    "text": "È arrivata la sfida della settimana. Leggete le regole, scegliete chi va in scena e poi: luci!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "7b734045",
+    "text": "Luci! Scena! Il tempo parte adesso.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "70c1dda6",
+    "text": "Stop! Fermi tutti. E ora: applausi!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "bba6be11",
+    "text": "Guardate il teatro: ogni applauso ha acceso un posto. È il pubblico di tutta la classe.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "37689ace",
+    "text": "Che palco! Chi è salito ha avuto coraggio, chi guardava ha fatto parte dello spettacolo.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "24c843ea",
+    "text": "Missione della settimana: rifate la sfida all'intervallo, e dite sì, e... a un'idea che non è vostra.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "99f6729c",
+    "text": "Era mezzanotte in biblioteca, e la bibliotecaria sentì un libro sussurrare il suo nome.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "995619fe",
+    "text": "L'autobus numero nove partì al mattino e non si fermò più, neanche al capolinea.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "8f33dda7",
+    "text": "Il primo cliente della pizzeria su Marte chiese una pizza senza gravità.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "3be7f321",
+    "text": "Le porte della vecchia palestra si aprirono ed entrarono undici nonni in tuta.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "af3e7089",
+    "text": "L'ascensore si fermò tra il quarto e il quinto piano, e il cantante cominciò a fare i vocalizzi.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "9eb75429",
+    "text": "Nel bosco dietro la scuola, un lupo aprì un banco di verdure.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "727ea1a8",
+    "text": "Alle cinque in punto, un ritratto famoso fece l'occhiolino alla guardia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "ebe5a52f",
+    "text": "Il capitano alzò la vela: la vasca da bagno era il suo oceano.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "824f8645",
+    "text": "Nella stazione spaziale suonò l'allarme: un calzino fluttuava verso i comandi.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "004ec475",
+    "text": "Lo chef assaggiò la zuppa e annunciò: oggi cuciniamo a occhi chiusi.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "45d07eac",
+    "text": "La sposa lanciò il bouquet, e a prenderlo fu una capra.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "17b5a880",
+    "text": "Quella notte l'altalena si staccò dalle catene e disse: basta, parto.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "94926a85",
+    "text": "Imprevisto: una gran paura! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "b33ac09d",
+    "text": "Imprevisto: una gioia improvvisa! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "16fc1016",
+    "text": "Imprevisto: una rabbia da vulcano! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "6da9e4b7",
+    "text": "Imprevisto: una tristezza da pioggia! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "94cc5fa9",
+    "text": "Imprevisto: una sorpresa enorme! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "1c67678d",
+    "text": "Imprevisto: una vergogna rossa rossa! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "3e8040a6",
+    "text": "Imprevisto: un orgoglio da campioni! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "5a2357e7",
+    "text": "Imprevisto: un disgusto tremendo! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "fb65dc59",
+    "text": "Imprevisto: un ombrello rotto! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "532a74c9",
+    "text": "Imprevisto: una torta gigante! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "0a443851",
+    "text": "Imprevisto: una chiave d'oro! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "9772eaf0",
+    "text": "Imprevisto: un telefono che squilla! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "20ac2891",
+    "text": "Imprevisto: una mappa strappata! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "1f79c0d4",
+    "text": "Imprevisto: un palloncino rosso! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "c2fdb08e",
+    "text": "Imprevisto: un uovo che si muove! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "dafefd39",
+    "text": "Imprevisto: un paio di occhiali magici! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "5ea759a1",
+    "text": "Imprevisto: uno starnuto fortissimo! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "cec54d68",
+    "text": "Imprevisto: un tuono! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "d8eee756",
+    "text": "Imprevisto: una sirena! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "686010c6",
+    "text": "Imprevisto: un miagolio! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "0b383666",
+    "text": "Imprevisto: una risata nel buio! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "a88535b3",
+    "text": "Imprevisto: un campanello! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "124283d8",
+    "text": "Imprevisto: un applauso misterioso! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "4e9d2a8b",
+    "text": "Imprevisto: un russare profondo! Il prossimo lo deve far entrare nella storia.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "99bd7eae",
+    "text": "Applaudite forte se avete provato: Allegria!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "f44a005e",
+    "text": "Applaudite forte se avete provato: Sorpresa!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "cd27023c",
+    "text": "Applaudite forte se avete provato: Paura!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "7507dcbf",
+    "text": "Applaudite forte se avete provato: Tenerezza!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "1da44d51",
+    "text": "Applaudite forte se avete provato: Entusiasmo!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "c03e438a",
+    "text": "Applaudite forte se avete provato: Malinconia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "b9bb4ad2",
+    "text": "La sfida della settimana: Il dialogo con una sola parola. Due attori possono dire solo la parola banana, ma con tutte le emozioni.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "054726be",
+    "text": "La sfida della settimana: L'oggetto magico. Un astuccio passa di mano e ogni volta diventa un'altra cosa.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "1c9288a8",
+    "text": "La sfida della settimana: La stessa scena in tre emozioni. Una scena di venti secondi rifatta arrabbiati, felicissimi e spaventati.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "41a618b7",
+    "text": "La sfida della settimana: Lo specchio. A coppie: uno guida i movimenti, l'altro è il suo specchio.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "35246636",
+    "text": "La sfida della settimana: Il traduttore. Uno parla una lingua inventata, l'altro traduce al pubblico.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "cbd6aa7e",
+    "text": "La sfida della settimana: Alfabeto. Una scena a due dove ogni battuta comincia con la lettera successiva.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "ef20b127",
+    "text": "La sfida della settimana: Il coro dei sentimenti. Quattro attori sono un coro che canta la stessa frase con emozioni diverse.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "0ce81331",
+    "text": "La sfida della settimana: Fermo immagine. Una foto di gruppo che prende vita per dieci secondi.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "0055f6cf",
+    "text": "La sfida della settimana: L'esperto di niente. Il più grande esperto del mondo di un argomento inventato dal pubblico.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "3799ec3f",
+    "text": "La sfida della settimana: Tre parole dal pubblico. Un luogo, un mestiere e un'emozione: la scena li deve usare tutti.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "049a3bac",
+    "text": "La sfida della settimana: Il rallentatore. Una scena d'azione tutta al rallentatore, con le facce esagerate.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "f941bdb2",
+    "text": "La sfida della settimana: La lettera. Un attore legge una lettera immaginaria e cambia emozione a ogni cambio.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "8eed86cd",
+    "text": "La sfida della settimana: Sì, e... a catena. Tutta la classe organizza una festa impossibile, una frase a testa.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "b409baed",
+    "text": "La sfida della settimana: Lo status. Uno parte sicurissimo, l'altro timido, e piano piano si scambiano.",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "5bae6fa6",
+    "text": "La carta segreta era: Gioia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "2134c11b",
+    "text": "La carta segreta era: Tristezza!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "5f282f02",
+    "text": "La carta segreta era: Rabbia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "c9db45de",
+    "text": "La carta segreta era: Paura!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "a3e54a3c",
+    "text": "La carta segreta era: Sorpresa!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "a9772597",
+    "text": "La carta segreta era: Disgusto!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "a671837c",
+    "text": "La carta segreta era: Vergogna!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "66054e1f",
+    "text": "La carta segreta era: Orgoglio!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "7a94d700",
+    "text": "La carta segreta era: Noia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "e905f6cd",
+    "text": "La carta segreta era: Tenerezza!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "d7170bcf",
+    "text": "La carta segreta era: Nostalgia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "f72e2157",
+    "text": "La carta segreta era: Gelosia!",
+    "game": "Sì, e..."
+  },
+  {
+    "id": "f76475b1",
+    "text": "Un mondo grigio. Cinque gesti. Ogni gesto restituisce un colore.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "03eb9f1b",
+    "text": "Passa il dito piano sulla nebbia.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "ba8b3b8b",
+    "text": "Più piano. Quando si corre, la nebbia torna.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "cfcd532e",
+    "text": "Con la pazienza, la nebbia si apre.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "0f28a5a0",
+    "text": "Tieni premuto per sollevare il sasso.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "461c4b7f",
+    "text": "Da soli è pesante. Tocca chi è arrivato.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "e72bc5a3",
+    "text": "In due, il peso si divide.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "1200ff52",
+    "text": "Rimetti insieme i pezzi dello specchio.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "d0a9a3d2",
+    "text": "Tutti i pezzi sono tuoi. Anche quelli storti.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "62a82a7e",
+    "text": "Tocca insieme al battito. Piano piano rallenta.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "119d5a49",
+    "text": "Il cuore rallenta. La tempesta passa.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "29a57dd8",
+    "text": "Ora disegna. Con il dito, quello che vuoi.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "272fa148",
+    "text": "Questo cielo l'hai fatto tu.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "4c9aa9bb",
+    "text": "Il grigio c'era. Ma dentro c'erano tutti i colori.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "291ec54e",
+    "text": "Che colore ha la tua giornata? E dove puoi trovarne un altro?",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "649ef28b",
+    "text": "Oggi cerca un colore fuori dallo schermo: una cosa, una persona, un posto. Guardalo bene e raccontalo a qualcuno.",
+    "game": "I colori di dentro"
+  },
+  {
+    "id": "3d2f21b9",
+    "text": "Benvenuti nel camerino del clown! Vestitelo come volete: qui non si sbaglia mai.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "4a8847f8",
+    "text": "Tocca un cassetto e scegli qualcosa da mettere al clown.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "097a45b9",
+    "text": "Il clown sa fare tante facce! Apri il cassetto delle facce: quello che brilla.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "809f9010",
+    "text": "Che faccia buffa! Fatela insieme, e chi ride per primo sceglie la prossima.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "0e3ca0b7",
+    "text": "Ih ih ih! Il clown soffre il solletico.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "fd218a9d",
+    "text": "Splash! Il fiore spruzza. Scusate, è un fiore da clown!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "de1d6712",
+    "text": "Signore e signori, bambini e bambine... si apre il sipario!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "b3860d7e",
+    "text": "Il clown fa l'inchino. Un bell'applauso!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "eb93dffd",
+    "text": "Che spettacolo! Il clown torna nel camerino.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "0735d20c",
+    "text": "Che clown meraviglioso! Avete provato tante facce, e ogni faccia si può trasformare.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "482097ee",
+    "text": "Davanti a uno specchio vero, fate a turno una faccia: triste, arrabbiata o spaventata. Ditevi dove la sentite nel corpo. Poi, se vi va, giocate a farla diventare buffa.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "062cb2fb",
+    "text": "Che naso! Prova a toccarlo.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "35b8a8b3",
+    "text": "Il cappello è perfetto.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "78177c4a",
+    "text": "Che capelli da clown!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "a9be4d5e",
+    "text": "Con questi occhiali vedo tutto più grande!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "1cefacc8",
+    "text": "Elegantissimo!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "fb48c640",
+    "text": "Annusa il fiore... attento allo spruzzo!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "09fc6c61",
+    "text": "Che vestito da spettacolo!",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "54687c52",
+    "text": "Il clown è felice. Fai anche tu la faccia felice! E adesso trasformala in una faccia buffa.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "cde7a24b",
+    "text": "Il clown è triste. Fai anche tu la faccia triste.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "54f06e1d",
+    "text": "Il clown è arrabbiato. Fai anche tu la faccia arrabbiata.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "67046cd8",
+    "text": "Il clown ha paura. Fai anche tu la faccia spaventata.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "d546b672",
+    "text": "Il clown è sorpreso. Fai anche tu la faccia sorpresa! E adesso trasformala in una faccia buffa.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "3e4874d6",
+    "text": "Le facce del clown.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "f674d0ad",
+    "text": "I nasi.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "cf35fdf0",
+    "text": "I cappelli.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "d13cc978",
+    "text": "I capelli.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "309a0d5b",
+    "text": "Gli occhiali.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "65211c9a",
+    "text": "I colletti.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "cb9819eb",
+    "text": "I fiori.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "495ad0c8",
+    "text": "I vestiti.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "1034b9d8",
+    "text": "Dove la senti questa faccia? Nella pancia, nel petto? Quanto è grande?",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "5650c9bc",
+    "text": "Va bene sentirla. Le facce cambiano, quando vogliono loro.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "6f612b03",
+    "text": "Se vi va, potete giocare a farla diventare buffa. Oppure tenerla ancora un po': va bene lo stesso.",
+    "game": "Il camerino del clown"
+  },
+  {
+    "id": "24367c60",
+    "text": "Dentro di te c'è un supereroe. Oggi lo disegniamo insieme, e poi affrontiamo i mostri della paura.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "549456be",
+    "text": "Bentornato, supereroe! La missione ti aspettava.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "bb671f0d",
+    "text": "Scegli il costume, il mantello e il simbolo del tuo eroe.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "6a2d8f4a",
+    "text": "Ora scegli due poteri. Sono poteri veri: li hai già dentro di te.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "0e0abdda",
+    "text": "Arriva un mostro della paura! Quale potere usi?",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "b2e50cd5",
+    "text": "Io sono Ciuffo e ti faccio compagnia. Se un mostro è troppo grosso, tocca: Ciuffo aiuta. Chiedere aiuto è un potere.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "7848c901",
+    "text": "Arriva Ciuffo con il naso rosso del clown! Insieme è più facile.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "0da9cdef",
+    "text": "Il mostro non è sparito: è diventato piccolo e buffo, e ora è tuo amico.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "6e0118c0",
+    "text": "Un respiro un po' più lungo, piano piano.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "27d9b39b",
+    "text": "Aspetta il battito, poi tocca.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "611ec7ca",
+    "text": "Ops, una nuvoletta ti ha fatto il solletico. Riprova!",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "02d89475",
+    "text": "Il cuore è tornato indietro: portalo proprio sul mostro.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "2c675922",
+    "text": "Missione compiuta! Il tuo eroe ha trasformato le paure in amici.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "8ddf50f4",
+    "text": "Missione salvata. La prossima volta arriva un nuovo mostro.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "caecf005",
+    "text": "Hai fatto amicizia con tutti i mostri. La prossima volta tornano a giocare con te.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "66a9ac51",
+    "text": "Missione fuori dallo schermo: quando arriva una paura, chiamala per nome e usa il tuo potere. Se vuoi, racconta al clown quale potere hai usato oggi.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "5689358f",
+    "text": "Sono il Mostro dell'Attesa. Tic tac, tic tac... quanto manca? Uffa!",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "371455fe",
+    "text": "Sono il Mostro del Buio. Buuu! Cioè... anche io ho un po' paura del buio.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "d7d7d534",
+    "text": "Sono il Brontolone della Noia. Non c'è niente da fare, niente di niente. Brontolo!",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "1a039827",
+    "text": "Sono lo Spaventino dei Rumori. Bip, bip, bzzz! Faccio tanti rumori strani.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "a0b57a4c",
+    "text": "Sono il Nuvolone della Nostalgia. Mi manca casa, mi mancano i miei giochi.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "15a29c3c",
+    "text": "Sono il Mostro del Non Ce La Faccio. Tanto non ci riesci. Anzi, non ci riesco nemmeno io.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "b502ce54",
+    "text": "Ora il Mostro dell'Attesa conta con te: aspettare insieme passa prima.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "a6153872",
+    "text": "Il Mostro del Buio si è acceso di stelline. Ora è la tua lucina della notte.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "12e64ad2",
+    "text": "Il Brontolone ha trovato un gioco: inventare storie con te!",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "7d1c6b21",
+    "text": "Lo Spaventino ora fa musica: il bip bip è diventato una canzone.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "68be7100",
+    "text": "Il Nuvolone ha fatto uscire il sole: casa la porti nel cuore.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "3ccd5556",
+    "text": "Ora si chiama Mostro del Non Ce La Faccio Ancora. Con la pratica si impara!",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "25a84ab3",
+    "text": "Tieni premuto e inspira piano. Poi lascia e soffia: il vento porta via le nuvolette grigie.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "8e07ee5b",
+    "text": "Trascina lo scudo e para le nuvolette di paura.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "b5c3a9df",
+    "text": "Tocca lo schermo a tempo con il battito: il mostro scoppia a ridere.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "48a7f628",
+    "text": "Trascina i cuori fino al mostro.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "0f6dd104",
+    "text": "Tocca le macchie grigie e riempi il mostro di colori.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "bf69aa2a",
+    "text": "Suona la campanella e tocca chi arriva ad aiutarti.",
+    "game": "Il mio supereroe interno"
+  },
+  {
+    "id": "a9555925",
+    "text": "Ogni volta che la classe fa una cosa bella, accendiamo una stella. Stella dopo stella, nasce una costellazione!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "8737fc56",
+    "text": "Bentornati! Il vostro cielo vi aspettava.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "a5c4ae58",
+    "text": "Manca solo una stella!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "3dcaf35c",
+    "text": "Scegliete insieme il premio della squadra.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "8c126744",
+    "text": "Minuto di silenzio magico. Shhh... tutti zitti zitti, come le stelle.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "2c77c8f4",
+    "text": "Il tempo è finito. Siete rimasti in silenzio?",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "be0fd5ef",
+    "text": "Silenzio magico! Arriva una stella cadente.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "3385248a",
+    "text": "Il silenzio è difficile. Ci riproviamo un'altra volta.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "f8a4d81e",
+    "text": "Fine giornata. Oggi la classe ha acceso il cielo insieme.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "7e187761",
+    "text": "Domani, appena entrate in classe, guardate il vostro cielo e decidete quale stella accendere per prima.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "24c22e05",
+    "text": "Che orecchie attente! Una stella per l'ascolto.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "13c95461",
+    "text": "Avete aspettato il turno: una stella per la pazienza.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "574e360d",
+    "text": "Vi siete aiutati: una stella per la squadra.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "c4ec9803",
+    "text": "Vi siete fatti coraggio a vicenda: una stella che brilla forte.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "c8ab9fe6",
+    "text": "Bravi tutti! Una stella per la classe.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "c3880efd",
+    "text": "Stasera nel cielo nasce la Balena.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "aed87157",
+    "text": "Stasera nel cielo nasce l'Astronave.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "4326ded3",
+    "text": "Stasera nel cielo nasce l'Albero.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "a750d09d",
+    "text": "Stasera nel cielo nasce il Drago gentile.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "c95986a4",
+    "text": "Stasera nel cielo nasce la Chitarra.",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "7be26da6",
+    "text": "Ce l'avete fatta! La Balena si è accesa ed è viva!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "6386bdc4",
+    "text": "Ce l'avete fatta! L'Astronave si è accesa ed è viva!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "7b4518b2",
+    "text": "Ce l'avete fatta! L'Albero si è accesa ed è viva!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "160ff208",
+    "text": "Ce l'avete fatta! Il Drago gentile si è accesa ed è viva!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "bcfa89f7",
+    "text": "Ce l'avete fatta! La Chitarra si è accesa ed è viva!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "a5e55b33",
+    "text": "Premio scelto: cinque minuti di gioco libero. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "ba86678f",
+    "text": "Premio scelto: una canzone tutti insieme. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "b79a6f37",
+    "text": "Premio scelto: il ballo della classe. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "93b4b10b",
+    "text": "Premio scelto: una storia letta dall'insegnante. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "13eac79a",
+    "text": "Premio scelto: la merenda in cerchio. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "6ca9838e",
+    "text": "Premio scelto: un gioco in cortile. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "ee0f7ce0",
+    "text": "Premio scelto: un disegno di classe sulla lavagna. Ve lo siete meritato insieme!",
+    "game": "La stella della squadra"
+  },
+  {
+    "id": "005f1bde",
+    "text": "Ecco la tua squadra di difesa: quattro amici che lavorano per te. Porta a ognuno quello che gli serve, e la squadra diventa fortissima.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "0e97c801",
+    "text": "Guarda chi chiede aiuto, e trascina la cosa giusta fino a lui. Puoi anche toccare la cosa e poi l'amico.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "63528957",
+    "text": "Le medicine sono aiutanti della squadra: lavorano insieme a te.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "80db76b0",
+    "text": "Questo serve a un altro amico della squadra. Guarda il fumetto: chi lo chiede?",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "9b602a0d",
+    "text": "Si siede a riposare un attimo. Niente paura: arriva un amico ad aiutarlo.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "03c36472",
+    "text": "Un amico è arrivato ad aiutarlo. In squadra nessuno resta solo.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "d726676f",
+    "text": "Le nuvolette di brontolio si sciolgono con un tocco.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "e4362e1f",
+    "text": "Arriva il clown! Pioggia di sorrisi per tutta la squadra!",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "cc9905be",
+    "text": "Prima missione: porta le cose giuste alla squadra.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "da0110ed",
+    "text": "Seconda missione: scaccia le nuvolette di brontolio con un tocco.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "675a5b1a",
+    "text": "Ultima missione: tutti carichi insieme!",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "bbcace8c",
+    "text": "Missione compiuta! La casetta si accende un po' di più.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "da4d6107",
+    "text": "Se serve una mano, tocca: arriva il clown!",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "782b6023",
+    "text": "Ci fermiamo un momento. Tocca Riprendi quando vuoi.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "e6115c3d",
+    "text": "La casetta è tutta illuminata! La squadra fa festa con la musica che hai creato.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "2830cb83",
+    "text": "Che squadra! Hai aiutato tutti, uno alla volta e tutti insieme.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "33ee8088",
+    "text": "Fuori dallo schermo: bevi un bicchiere d'acqua e regala un sorriso a chi ti cura.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "6739f77c",
+    "text": "Grazie! Scudo è di nuovo pronta.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "6ef928ee",
+    "text": "Grazie! L'orto di Goccia torna verde.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "ea2ccc3e",
+    "text": "Grazie! Nanna ha rimesso in ordine le forze.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "a069c2bd",
+    "text": "Grazie! Sorriso fa una capriola di gioia.",
+    "game": "Squadra di difesa"
+  },
+  {
+    "id": "4f7e0972",
+    "text": "Ognuno ha delle forze. Alcune le vedi da solo, altre te le fa vedere chi ti conosce. Costruiamo la tua mappa.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "173d0fc7",
+    "text": "Guarda ogni carta e chiediti: questo sono io? Trascinala in una delle tre pile. Non c'è una risposta giusta.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "83fa1ad8",
+    "text": "Hai tante forze in Molto me. Tieni le cinque che senti più tue: le altre non spariscono.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "3d8dfef3",
+    "text": "Adesso passa il telefono a qualcuno che ti conosce bene. Non sbirciare!",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "f52c0c07",
+    "text": "Ciao! Scegli le cinque forze che vedi in questa persona. Se ti viene un esempio vero, diglielo a voce.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "85f9d121",
+    "text": "Grazie. Ora ripassa il telefono.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "06d493c8",
+    "text": "Ecco le forze che vedi in te.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "e2d94a12",
+    "text": "Chi ti conosce vede in te anche queste. Sono forze nascoste: c'erano già.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "c8f0eeb9",
+    "text": "Dove vi siete trovati, la costellazione brilla di più.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "35fc1d55",
+    "text": "Chi ti conosce ha visto le stesse forze che vedi tu. Vi conoscete bene.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "cac24e25",
+    "text": "Scegli una forza da usare questa settimana, e un modo concreto per farlo.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "da22e6b2",
+    "text": "La tua mappa è pronta. Le forze crescono quando le usi.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "f7decb80",
+    "text": "Questa settimana fai la tua azione. Poi raccontala a chi ha scelto le tue forze.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "fa1e7531",
+    "text": "Ecco le tue mappe. Guarda cosa è cambiato.",
+    "game": "La mappa delle mie forze"
+  },
+  {
+    "id": "67777eb7",
+    "text": "Prima di una verifica il cuore corre. Costruiamo il tuo scudo: prendi le risorse, respingi le distrazioni.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "436f5166",
+    "text": "Scegli la tua frase forte: la ritroverai quando lo scudo sarà completo.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "7daa28dd",
+    "text": "Tocca le risorse per agganciarle allo scudo. Le distrazioni respingile con uno swipe.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "e8c299a4",
+    "text": "Le distrazioni non si prendono: si respingono con uno swipe.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "b36e2f58",
+    "text": "Una crepa. Nessun problema: la prossima risorsa la ripara.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "c2035d41",
+    "text": "Travestita da risorsa! Respingila con uno swipe.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "de08e123",
+    "text": "Travestita da risorsa: lo scudo si incrina un poco. Leggi bene prima di agganciare.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "3dcedf9c",
+    "text": "Metà scudo. Senti? Il battito rallenta.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "8bbdf2a0",
+    "text": "Scudo completo. Adesso nessuna distrazione passa.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "793b7112",
+    "text": "Ora il respiro quadrato: quattro secondi per ogni lato.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "deaf30d5",
+    "text": "Inspira.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "dbee079d",
+    "text": "Trattieni.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "0c12ec5b",
+    "text": "Espira.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "ed369713",
+    "text": "Hai costruito il tuo scudo: risorse prese, distrazioni respinte, crepe riparate.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "17125886",
+    "text": "Prima della verifica: tre respiri quadrati e la tua frase forte, detta dentro di te.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "7ea3deda",
+    "text": "Ho fatto la mia parte: ora mostro quello che so.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "1808f8f3",
+    "text": "Un errore non decide chi sono.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "2618211f",
+    "text": "Respiro, leggo, rispondo.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "951cc272",
+    "text": "Non devo sapere tutto: do il meglio di oggi.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "ccefa5cf",
+    "text": "Il cuore che batte è energia, non paura.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "997d46fb",
+    "text": "Comincio da quello che so.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "326f3ae7",
+    "text": "Sembra utile, ma all'ultimo minuto si ripassa in ansia e si confonde quello che sapevi.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "85e33a89",
+    "text": "Sembra energia, ma troppo caffè fa correre il cuore ancora di più.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "c1be67ad",
+    "text": "Sembra impegno, ma senza sonno il cervello non fissa quello che hai studiato.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "54eec4a5",
+    "text": "Sembra un controllo, ma ti riempie di dubbi su quello che sapevi già.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "d40ba88f",
+    "text": "Sembra una carica, ma poi arriva il crollo e il battito sale.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "64199629",
+    "text": "Sembra tempo guadagnato, ma a stomaco vuoto ci si concentra peggio.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "0793a280",
+    "text": "Sembra ripasso, ma rileggere tutto stanca e dà solo l'impressione di sapere.",
+    "game": "Scudo anti-stress"
+  },
+  {
+    "id": "ca328113",
+    "text": "Una storia, tre persone, tre teste diverse. Guardate la scena, poi riavvolgete il nastro e mettetevi nei panni di ognuno.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "4187b33e",
+    "text": "Guardate bene le tre vignette. Poi riavvolgiamo il nastro.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "20ed9069",
+    "text": "Tocca al ragazzo o alla ragazza. L'adulto guarda da un'altra parte!",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "c3f50775",
+    "text": "Adesso tocca all'adulto. Il ragazzo o la ragazza non sbircia!",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "efb4a55c",
+    "text": "Cosa prova secondo te? Scegli una o due emozioni sulla ruota e quanto sono forti.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "16cf21d6",
+    "text": "Ecco cosa pensava davvero.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "19808f07",
+    "text": "C'era anche un'emozione nascosta!",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "7447ef3b",
+    "text": "Siete in sintonia: avete visto la stessa cosa.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "10e5a51c",
+    "text": "Questa volta vi ha sorpreso. È proprio il bello di cambiare punto di vista.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "5942ecb0",
+    "text": "La lente dell'empatia: la stessa scena, tre cuori diversi.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "6c275520",
+    "text": "E adesso parliamone. Scegliete una risposta, oppure inventatene una vostra e ditela ad alta voce.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "cf83a246",
+    "text": "Bella mossa. Le parole giuste cambiano la scena.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "ddcbac02",
+    "text": "Nuova storia.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "10b0e515",
+    "text": "Avete guardato nove volte la stessa realtà con occhi diversi. Questo si chiama empatia, e si allena come un muscolo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b7fa4134",
+    "text": "Stasera racconta una cosa della tua giornata dal punto di vista di un'altra persona.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "ce75f972",
+    "text": "La partita persa",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "a82c770b",
+    "text": "Cosa avresti potuto dire a Luca?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "8dfced87",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Luca.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "fcb8d5a7",
+    "text": "Tutti mi guardavano. Avrei voluto sparire sotto il campo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "06327839",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Sara.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "19a1878f",
+    "text": "Ho urlato senza pensarci. Luca è mio amico e adesso mi sento in colpa.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "8645c434",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi dell'allenatore.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "69286be5",
+    "text": "La partita è persa, ma oggi hanno giocato come una vera squadra. Sono contento di loro.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b3da7900",
+    "text": "Ultimo minuto. Il pallone passa sotto le mani di Luca: gol.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "4129bea7",
+    "text": "Sara si mette le mani nei capelli: «Ma dai, Luca!»",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "e74a209f",
+    "text": "Negli spogliatoi Luca non parla. L'allenatore gli dà una pacca sulla spalla.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "8609003d",
+    "text": "Il messaggio letto",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "f8e8f567",
+    "text": "Cosa avresti potuto fare al posto di Giulia?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "c3464b4b",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Giulia.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "34f6bd6c",
+    "text": "Mi ha letto e basta. Forse preferisce uscire con gli altri.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "01c9c354",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Marco.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "eb14faf8",
+    "text": "Non riesco a pensare al parco. Ho paura per il nonno.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "15ba0a9d",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi della mamma di Marco.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "02c4b7c3",
+    "text": "Devo essere forte per Marco, ma anch'io sono molto preoccupata.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0c663bf9",
+    "text": "Giulia scrive a Marco: «Domani ci sei al parco?»",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "9f6696cf",
+    "text": "Due spunte blu. Passa un'ora. Nessuna risposta.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "55afcfd8",
+    "text": "Intanto, in cucina, la mamma ha appena detto a Marco che il nonno è in ospedale.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b255a2da",
+    "text": "Il compito copiato",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "5df1e00f",
+    "text": "Cosa avrebbe potuto dire Davide?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "bf0bea79",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Elena.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "bc5cb771",
+    "text": "Volevo aiutarlo e adesso siamo nei guai in due. Non è giusto.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "84b912bd",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Davide.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "e4c88386",
+    "text": "Non avevo capito niente e mi vergognavo a chiedere. Adesso ho messo nei guai anche Elena.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "800d0c9c",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi della prof.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b837d271",
+    "text": "Più del compito copiato mi preoccupa che Davide non chieda aiuto quando non capisce.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "29f249b8",
+    "text": "Davide sussurra a Elena: «Mi passi il compito di matematica?»",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "c5abef16",
+    "text": "Elena glielo passa, un po' controvoglia.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "59d956ea",
+    "text": "La prof trova due compiti identici e chiama tutti e due alla cattedra.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "c4e4ccfb",
+    "text": "La festa senza invito",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "42f2c7d4",
+    "text": "Cosa avresti potuto fare al posto di Anna?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "a549d91e",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Chiara.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "d6f1a129",
+    "text": "Mia mamma ha detto al massimo dieci persone. Ho dovuto scegliere e mi sento malissimo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "2bc020b9",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Nicolò.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b40cd432",
+    "text": "Forse a nessuno importa di me. E un po' sono anche arrabbiato.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0dcf9c50",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Anna.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "f913aebb",
+    "text": "Non so cosa dirgli. Però se mi siedo vicino a lui, magari si sente meno solo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "7b43214b",
+    "text": "In classe tutti parlano della festa di Chiara di sabato.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "93dd258c",
+    "text": "Nicolò scopre di essere l'unico della sua fila senza invito.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "c223dc9e",
+    "text": "All'intervallo Anna lo vede da solo, in fondo al corridoio.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0eedb48b",
+    "text": "Il vaso della nonna",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "121cd3ba",
+    "text": "Cosa avrebbe potuto dire Matteo?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "ddfd5410",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Matteo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0a984ee9",
+    "text": "Avevo paura che dessero la colpa a me, come sempre, perché sono il più grande.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "56a8bd40",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Tommi.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "a84fb1b6",
+    "text": "Non volevo! Adesso il papà si arrabbia e la nonna sarà triste.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0d37ec67",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi del papà.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "1f306a60",
+    "text": "Il vaso mi dispiace, ma la cosa importante è che nessuno si sia fatto male con i cocci.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "99ac8b81",
+    "text": "Tommi gioca a palla in salotto. Matteo gli aveva detto di smettere.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "47b0d759",
+    "text": "Crash! Il vaso della nonna è in mille pezzi.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "5d7b1a52",
+    "text": "Entra il papà e Matteo urla subito: «È stato lui!»",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "650eb093",
+    "text": "Il nuovo in classe",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "78042640",
+    "text": "Cosa avrebbe potuto fare Bea?",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "b424e73a",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Karim.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "77dab5d1",
+    "text": "Nella mia vecchia scuola avevo tanti amici. Qui mi sento invisibile, o peggio, preso in giro.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "f86fd5ee",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Leo.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "f29d434e",
+    "text": "Volevo far ridere tutti. Forse ho esagerato, ma non so come rimediare.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "841ac612",
+    "text": "Riavvolgiamo il nastro. Adesso guardiamo con gli occhi di Bea.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0dd6c7cc",
+    "text": "Mi ha dato fastidio, ma avevo paura che poi prendessero in giro anche me.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "8e76801c",
+    "text": "Arriva Karim, nuovo in classe. La prof lo fa sedere vicino a Bea.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "0c20a791",
+    "text": "Leo fa una battuta sul suo accento. Qualcuno ride.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "7c2ae406",
+    "text": "Bea non ride. Però non dice niente.",
+    "game": "Tre punti di vista"
+  },
+  {
+    "id": "5dda9274",
+    "text": "Siete l'equipaggio di una navicella. Il pilota guarda gli abitanti dei pianeti, il copilota legge il manuale. Solo parlandovi capirete cosa provano.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "7e52e0e8",
+    "text": "Motori accesi... si decolla!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "1d52b068",
+    "text": "Atterraggio! Pilota, racconta al copilota come si muove l'abitante.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "f874180c",
+    "text": "Atterraggio! Pilota, descrivi l'abitante: la pelle, le antenne, gli occhi e come si muove.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "973012e3",
+    "text": "Guardate il manuale insieme: secondo voi, cosa prova l'abitante?",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "e0c42a18",
+    "text": "Sì, è proprio quello che provo! Adesso scegliete uno strumento per aiutarmi.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "99730299",
+    "text": "Sì, provo proprio due emozioni insieme! Adesso serve uno strumento per ciascuna.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "51b03f37",
+    "text": "Niente paura: parlatevi ancora e provate un altro strumento.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "c0d01b55",
+    "text": "Uno strumento giusto! Ma dentro sento ancora un'altra emozione.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "2de23556",
+    "text": "Grazie! Ma questo aiuta la stessa emozione di prima: adesso serve qualcosa per l'altra.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "f5849d4b",
+    "text": "Due emozioni insieme, e voi le avete capite tutte e due. Grazie, squadra!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "52863490",
+    "text": "Carburante finito! Facciamo il pieno di stelle e ripartiamo con calma.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "40454f88",
+    "text": "Missione compiuta! La galassia è tutta colorata, grazie alla vostra squadra.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "31e03b2c",
+    "text": "Missione fuori dallo schermo: chiedete a qualcuno come sta, e ascoltate fino in fondo.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "b2ea8899",
+    "text": "Copilota, questo manuale è solo per te. Pilota, niente sbirciatine!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "2ab59f22",
+    "text": "Seguite i passi in ordine: prima la pelle, poi le antenne, poi il corpo.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "e5b2b725",
+    "text": "Mmh... guardate meglio la mia pelle: cambia colore o no? Il manuale cosa dice?",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "967c9b6f",
+    "text": "Mmh... guardate meglio le mie antenne! Il manuale dice qualcosa sulle antenne.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "ef5cf577",
+    "text": "Mmh... guardate meglio come mi muovo, e cercatelo nel manuale!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "8ce746ec",
+    "text": "Mmh... guardate meglio i miei occhi, e cercateli nel manuale!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "f894d3f0",
+    "text": "Evviva, una festa! Ero così felice che volevo festeggiare con qualcuno.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "f88b4f2b",
+    "text": "Che bell'abbraccio! Adesso la mia gioia è grande il doppio.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "0fc4fb5d",
+    "text": "Grazie... il raggio abbraccio mi scalda il cuore. Ora sono meno triste.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "5b012ff1",
+    "text": "Grazie per avermi ascoltato. Raccontarlo mi ha fatto sentire meno solo.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "a689e1bf",
+    "text": "Con lo scudo di coraggio la paura c'è ancora, ma io mi sento più forte.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "42380366",
+    "text": "Questa musica lenta mi aiuta a respirare piano. Il cuore non batte più così forte.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "e5cbbd43",
+    "text": "Questa musica calma mi spegne il fuoco dentro. Grazie.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "922994e8",
+    "text": "Grazie per lo spazio. Un attimo da solo, e la rabbia si sgonfia.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "c9ef1aab",
+    "text": "Grazie per lo spazio. Un attimo da solo, e la vergogna passa.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "53bd169b",
+    "text": "Dietro lo scudo nessuno mi guarda... e le guance tornano del loro colore.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "e464f1dd",
+    "text": "Grazie per avermi ascoltato. Mi mancava casa, e raccontarla mi fa bene.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "6b6ed342",
+    "text": "Questa musica dolce mi fa compagnia, insieme ai ricordi di casa.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "fdb78e9b",
+    "text": "Etciù! Ho i coriandoli nel naso!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "eee81412",
+    "text": "Ahi ahi, mi stropicci le antenne!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "a3673992",
+    "text": "Toc toc! Ho sbattuto il naso contro lo scudo!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "a99a533a",
+    "text": "Zzz... questa musica mi fa venire sonno!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "525318ba",
+    "text": "Ehi, dove siete andati? Sono rimasto qui tutto solo!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "6361836d",
+    "text": "Che orecchio enorme! Mi fa il solletico!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "bcb15b08",
+    "text": "Io sono felice: ho voglia di dividere la mia gioia con qualcuno!",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "5b622f84",
+    "text": "Quando sono triste ho bisogno di sentirmi vicino a qualcuno.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "5471cb79",
+    "text": "Quando ho paura mi serve sentirmi protetto, e respirare piano.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "9cb46254",
+    "text": "Quando sono arrabbiato mi serve calmarmi piano piano, o un po' di spazio per sbollire.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "548dd6ad",
+    "text": "Quando mi vergogno vorrei che nessuno mi guardasse, almeno per un attimo.",
+    "game": "Missione Emozionauti"
+  },
+  {
+    "id": "9a37eed3",
+    "text": "Mi manca casa: vorrei raccontarla a qualcuno, piano piano.",
+    "game": "Missione Emozionauti"
+  }
+]
