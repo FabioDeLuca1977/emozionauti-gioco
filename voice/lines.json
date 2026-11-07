@@ -500,6 +500,61 @@
     "game": "Bolle di calma"
   },
   {
+    "id": "31773167",
+    "text": "Sdraiati e appoggia il telefono sulla pancia. Quando la pancia si gonfia, la barchetta sale sull'onda.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "85bb45d8",
+    "text": "Appoggia il telefono sulla pancia e respira con la pancia, lento: la barca sale e scende con te.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d4908f30",
+    "text": "Tieni premuto mentre inspiri, e lascia mentre butti fuori l'aria: la barchetta va su e giù con te.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "1070f992",
+    "text": "Appoggia il telefono sulla pancia e resta fermo un momento.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "ad638263",
+    "text": "Ora inspira dal naso e gonfia la pancia, come un palloncino.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "0ac915f1",
+    "text": "Ti sento! Adesso respira piano piano, e guarda la barchetta.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d0abfb00",
+    "text": "Non sento la pancia muoversi. Prova a respirare più profondo, con la pancia.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "1f80fbb7",
+    "text": "Più lento, come le onde grandi del mare.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "4db2a8c7",
+    "text": "Che onda lunga! È saltato un pesciolino.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "b8af55e7",
+    "text": "Il mare è calmo. La tua pancia sa respirare piano piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "36a70768",
+    "text": "Fatto. Il respiro con la pancia lo puoi fare ovunque, anche senza telefono.",
+    "game": "Bolle di calma"
+  },
+  {
     "id": "4faf197d",
     "text": "Pinocchio e le emozioni.",
     "game": "Pinocchio e le emozioni"
@@ -3132,6 +3187,11 @@
   {
     "id": "b45c80d2",
     "text": "La bolla sospesa.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "80b56bc4",
+    "text": "La pancia che respira.",
     "game": "Ciuffo, compagno di viaggio"
   },
   {
