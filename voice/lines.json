@@ -555,6 +555,91 @@
     "game": "Bolle di calma"
   },
   {
+    "id": "8d7695c5",
+    "text": "Quando dentro c'è una tempesta, scuoti forte la boccia. Poi tienila ferma, e guarda la neve che si posa.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "7e4a3d39",
+    "text": "Scuoti il telefono e lascia uscire la tensione. Poi fermo, e respira lento mentre la neve si posa.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "3f20b484",
+    "text": "Quando dentro c'è una tempesta, strofina forte la boccia. Poi lasciala stare, e guarda la neve che si posa.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "173f6b44",
+    "text": "Scuoti! Più forte, fai uscire tutta la tempesta.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "16765c9c",
+    "text": "Adesso fermo. Respira piano, e guarda la neve che scende.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "9117491a",
+    "text": "La neve si è rialzata un pochino. Fermo, piano piano.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "cfb3a5c7",
+    "text": "Ci siamo quasi: guarda cosa c'era sotto la neve.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "fd15e741",
+    "text": "La neve si è posata da sola. La tempesta passa, se aspettiamo con calma.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "4bc8c84b",
+    "text": "La neve si è posata da sola: bastava restare fermi e aspettare. Succede anche alla tensione.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "57fd9d2d",
+    "text": "Muovi il telefono piano piano, come nell'acqua: il filo di luce disegna le stelle. Se vai veloce, il filo si spezza.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "59e1ef97",
+    "text": "Movimenti lenti e continui, come nel tai chi: il filo di luce disegna una costellazione. La fretta lo spezza.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "537c7a6b",
+    "text": "Disegna con il dito, piano piano: il filo di luce lascia le stelle. Se vai veloce, il filo si spezza.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "26bf5464",
+    "text": "Muoviti piano piano, e guarda il filo di luce.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "a6375edd",
+    "text": "Il filo si è spezzato! Più piano, è delicato.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "d0e28cab",
+    "text": "Una stella! Continua così, lento.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "c4af28e3",
+    "text": "Hai disegnato una costellazione con la lentezza.",
+    "game": "Bolle di calma"
+  },
+  {
+    "id": "2439df50",
+    "text": "Fatto. La lentezza si allena: ogni gesto lento è una piccola pausa.",
+    "game": "Bolle di calma"
+  },
+  {
     "id": "4faf197d",
     "text": "Pinocchio e le emozioni.",
     "game": "Pinocchio e le emozioni"
@@ -3195,6 +3280,11 @@
     "game": "Ciuffo, compagno di viaggio"
   },
   {
+    "id": "4f0ef976",
+    "text": "La boccia di neve.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
     "id": "d3db24a4",
     "text": "Lo zoo delle statue.",
     "game": "Ciuffo, compagno di viaggio"
@@ -3237,6 +3327,11 @@
   {
     "id": "4eb45c72",
     "text": "La busta per il clown.",
+    "game": "Ciuffo, compagno di viaggio"
+  },
+  {
+    "id": "f90af774",
+    "text": "Il filo di luce.",
     "game": "Ciuffo, compagno di viaggio"
   },
   {
