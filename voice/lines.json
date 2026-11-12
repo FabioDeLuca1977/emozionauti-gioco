@@ -2550,6 +2550,91 @@
     "game": "La cassetta degli attrezzi"
   },
   {
+    "id": "45ade972",
+    "text": "Sei secondi di soffio lento, come per tenere su una bolla.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "cbe736a9",
+    "text": "Riprendi aria dal naso",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "1d692aaa",
+    "text": "Soffia piano, a lungo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "a960e4bf",
+    "text": "Una mano sulla pancia: si gonfia come un palloncino, poi si sgonfia piano.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "16da5e82",
+    "text": "Gonfia la pancia",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "6279a0f5",
+    "text": "Sgonfiala piano piano",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "75fa91fd",
+    "text": "La neve che si posa: prima la tempesta, poi fermi ad aspettare.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b38ab374",
+    "text": "Stringi forte i pugni, come una tempesta",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ba7d0de9",
+    "text": "Lascia andare le mani",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "33bf290e",
+    "text": "Fermo come una boccia di neve",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "ae6ccfa5",
+    "text": "Respira piano: la neve scende",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "2e009834",
+    "text": "La neve si è posata",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "b8be0737",
+    "text": "Il filo di luce: un gesto lentissimo, come nell'acqua.",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "9489c5d8",
+    "text": "Alza una mano piano piano",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "709cb9b1",
+    "text": "Disegna un cerchio lentissimo",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "62d5823c",
+    "text": "Riportala giù, come una piuma",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
+    "id": "340814e2",
+    "text": "Respira e guarda la tua mano",
+    "game": "La cassetta degli attrezzi"
+  },
+  {
     "id": "afe92daf",
     "text": "Respiro quadrato: quattro lati, quattro tempi. Poi la tua frase forte.",
     "game": "La cassetta degli attrezzi"
@@ -3465,6 +3550,26 @@
     "game": "Il rientro alla base"
   },
   {
+    "id": "2bf8f7bf",
+    "text": "Proviamo il microfono. Un momento di silenzio.",
+    "game": "La prova del microfono"
+  },
+  {
+    "id": "c96ecbab",
+    "text": "Ora soffia piano piano, come su una candela.",
+    "game": "La prova del microfono"
+  },
+  {
+    "id": "b046232e",
+    "text": "Ti sento! Si parte.",
+    "game": "La prova del microfono"
+  },
+  {
+    "id": "b76ec654",
+    "text": "Non ti sento bene. Avvicinati al telefono, oppure scegli soffio leggero.",
+    "game": "La prova del microfono"
+  },
+  {
     "id": "7274b939",
     "text": "Nuovo potere nello zaino: Il soffio lento.",
     "game": "Lo zaino dei poteri"
@@ -3572,6 +3677,26 @@
   {
     "id": "3f11b736",
     "text": "Nuovo potere nello zaino: Lo scudo anti-stress.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "c18b23f1",
+    "text": "Nuovo potere nello zaino: Il soffio sospeso.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "1feef78f",
+    "text": "Nuovo potere nello zaino: La pancia che respira.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "e7ae5626",
+    "text": "Nuovo potere nello zaino: La neve che si posa.",
+    "game": "Lo zaino dei poteri"
+  },
+  {
+    "id": "5dbda21f",
+    "text": "Nuovo potere nello zaino: Il filo di luce.",
     "game": "Lo zaino dei poteri"
   },
   {
